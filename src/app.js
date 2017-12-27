@@ -6,6 +6,7 @@ import * as Scroll from 'react-scroll';
 import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 import NavBar from './components/utility/NavBar'
+import Routes from './components/utility/Routes'
 
 import 'font-awesome/css/font-awesome.css';
 import 'react-router-bootstrap';
@@ -18,8 +19,9 @@ class App extends React.Component {
     return (
       <Router>
         <div>
-          <h1>PORTFOLIO</h1>
           <NavBar />
+          <h1>PORTFOLIO</h1>
+          <Routes />
 
         </div>
       </Router>

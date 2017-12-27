@@ -1,14 +1,16 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import ProjectsIndex from '../projects/ProjectsIndex';
-import ProjectsShow from '../projects/ProjectsShow';
+import Main from '../main/Main';
+import About from '../utility/About';
+import Contact from '../utility/Contact';
 
 const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/projects" component={ProjectsIndex} />
-      <Route path="/projects/:id" component={ProjectsShow} />
+      <Route exact path="/main" component={Main} />
+      <Route path="/about" component={About} />
+      <Route path="/contact" component={Contact} />
     </Switch>
   );
 };
