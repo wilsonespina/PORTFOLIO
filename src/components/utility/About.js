@@ -1,12 +1,17 @@
 import React from 'react';
-import { Link, withRouter } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
+import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
-const About = () => {
+const About = ({scrollToTop}) => {
 
   return(
-    <div className="about-section">
-      <h1>About Section</h1>
-    </div>
+    <Element name="about" className="element" >
+      <div className="about-section">
+        <h1>About Section</h1>
+
+        <a onClick={scrollToTop}>To the top!</a>
+      </div>
+    </Element>
   );
 };
 

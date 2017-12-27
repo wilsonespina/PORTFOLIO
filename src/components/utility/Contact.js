@@ -1,12 +1,17 @@
 import React from 'react';
-import { Link, withRouter } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
+import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
-const Contact = () => {
+const Contact = ({scrollToTop}) => {
 
   return(
-    <div className="about-section">
-      <h1>Contact Section</h1>
-    </div>
+    <Element name="contact" className="element" >
+      <div className="contact-section">
+        <h1>Contact Section</h1>
+
+        <a onClick={scrollToTop}>To the top!</a>
+      </div>
+    </Element>
   );
 };
 
