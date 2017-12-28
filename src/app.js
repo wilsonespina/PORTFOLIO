@@ -50,31 +50,6 @@ class App extends React.Component {
       smooth: 'easeInOutQuart'
     });
   }
-  // scrollToWithContainer() {
-  //
-  //   let goToContainer = new Promise((resolve, reject) => {
-  //
-  //     Events.scrollEvent.register('end', () => {
-  //       resolve();
-  //       Events.scrollEvent.remove('end');
-  //     });
-  //
-  //     scroller.scrollTo('scroll-container', {
-  //       duration: 800,
-  //       delay: 0,
-  //       smooth: 'easeInOutQuart'
-  //     });
-  //
-  //   });
-  //
-  //   goToContainer.then(() =>
-  //     scroller.scrollTo('scroll-container-second-element', {
-  //       duration: 800,
-  //       delay: 0,
-  //       smooth: 'easeInOutQuart',
-  //       containerId: 'scroll-container'
-  //     }));
-  // }
   componentWillUnmount() {
     Events.scrollEvent.remove('begin');
     Events.scrollEvent.remove('end');
@@ -84,27 +59,23 @@ class App extends React.Component {
     return (
       <Router>
         <div>
+
+          
           <NavBar
             scrollToTop={this.scrollToTop}
-            scrollTo={this.scrollTo}
-            scrollToWithContainer={this.scrollToWithContainer}
-          />
+            scrollTo={this.scrollTo} />
           <Main
             scrollToTop={this.scrollToTop}
-            scrollTo={this.scrollTo}
-            scrollToWithContainer={this.scrollToWithContainer} />
+            scrollTo={this.scrollTo} />
           <Projects
             scrollToTop={this.scrollToTop}
-            scrollTo={this.scrollTo}
-            scrollToWithContainer={this.scrollToWithContainer} />
+            scrollTo={this.scrollTo} />
           <About
             scrollToTop={this.scrollToTop}
-            scrollTo={this.scrollTo}
-            scrollToWithContainer={this.scrollToWithContainer} />
+            scrollTo={this.scrollTo} />
           <Contact
             scrollToTop={this.scrollToTop}
-            scrollTo={this.scrollTo}
-            scrollToWithContainer={this.scrollToWithContainer} />
+            scrollTo={this.scrollTo} />
 
         </div>
       </Router>

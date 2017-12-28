@@ -6,12 +6,12 @@ import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy,
 const NavBar = ({ history }) => {
   return(
     <nav className="navbar navBar navbar-static-top navbar-fixed-top">
-      <div className="container-fluid">
+      <div className="container-fluid full-navbar">
         <div className="navbar-header">
           {/* <a className="navbar-brand" href="#">Wilson Espina</a> */}
-          <Link activeClass="active" className="navbar-brand main-logo" to="main" spy={true} smooth={true} duration={500} >Wilson Espina</Link>
+          <Link activeClass="active" className="navbar-brand main-logo" to="main" spy={true} smooth={true} duration={500} >wilson espina</Link>
         </div>
-        <div className="collapse navbar-collapse">
+        <div className="collapse navbar-collapse full-navbar">
           <ul className="nav navbar-nav pull-right">
             {/* <li><Link activeClass="active" className="main-section-link" to="main" spy={true} smooth={true} duration={500} >main</Link></li> */}
             <li><Link activeClass="active" className="section-link" to="projects" spy={true} smooth={true} duration={500} >projects</Link></li>

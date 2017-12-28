@@ -1,21 +1,19 @@
 .navBar {
   background-color: $nav-bar !important;
-  height: 100px;
+  height: 50px;
   a {
     color: #D0DEE9;
+  }
+  div ul li {
+    height: 100%;
   }
 }
 
 .section-link {
-  font-size: 15px;
+  font-size: 14px;
 }
 
-// .projects-link  {
-//   background-color: yellow;
-// }
-// .about-link {
-//   background-color: pink;
-// }
-// .contact-link {
-//   background-color: purple;
-// }
+.full-navbar {
+  // position: absolute;
+  // bottom: 0;
+}

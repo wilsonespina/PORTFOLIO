@@ -4,13 +4,16 @@ $font-blue: #5CD0EF;
 $font-pink: #F92672;
 $font-green: #A6E22E;
 $font-yellow: #E6D550;
+$font-white: #F8F8F2;
+
 
 @import "navBar";
 @import "main";
 @import "about";
 @import "contact";
 @import "projects";
+@import "sidebar";
 
 div.spacer {
-  height: 100px;
+  height: 50px;
 }
