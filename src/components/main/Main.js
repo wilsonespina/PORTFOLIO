@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
 import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
-const Main = ({scrollToTop}) => {
+const Main = ({scrollTo}) => {
 
   return(
     <Row className="main-section section container-fluid">
@@ -14,7 +14,7 @@ const Main = ({scrollToTop}) => {
 
 
 
-      <a onClick={scrollToTop}>To the top!</a>
+      <a onClick={scrollTo}>To the top!</a>
     </Row>
   );
 };

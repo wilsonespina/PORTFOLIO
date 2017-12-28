@@ -27,36 +27,25 @@ class App extends React.Component {
   state = { showNav: false }
 
   componentDidMount() {
-
-    this.scrollToTop();
-
-    // Events.scrollEvent.register('begin', function() {
-    //   console.log('begin', arguments);
-    // });
-    //
-    // Events.scrollEvent.register('end', function() {
-    //   console.log('end', arguments);
-    // });
-
+    this.scrollTo();
   }
+
   scrollToTop() {
     scroll.scrollToTop();
   }
+
   scrollTo() {
-    scroller.scrollTo('scroll-to-element', {
-      duration: 800,
+    scroller.scrollTo('main', {
+      duration: 600,
       delay: 0,
-      smooth: 'easeInOutQuart'
+      smooth: 'easeInOutQuart',
+      offset: -50
     });
   }
-  // componentWillUnmount() {
-  //   Events.scrollEvent.remove('begin');
-  //   Events.scrollEvent.remove('end');
-  // }
 
   handleClick = (e) => {
-    e.preventDefault();
-    this.setState({showNav: true});
+    e.stopPropagation();
+    this.state.showNav ? this.setState({showNav: false}) : this.setState({showNav: true});
   }
 
   render() {
@@ -80,11 +69,12 @@ class App extends React.Component {
             itemHoverStyle =  {{backgroundColor: '#5CD0EF'}}
             navStyle       =  {{
               backgroundColor: '#111314',
+              fontSize: '20px',
               width: '1000px'
             }}
             items={[
-              <p>LinkedIn</p>,
-              <p>GitHub</p>,
+              <p><i className="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</p>,
+              <p><i className="fa fa-github" aria-hidden="true"></i> GitHub</p>,
               <p>GA Profile</p>,
             ]} />
 
