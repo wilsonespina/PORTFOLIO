@@ -5,13 +5,15 @@ import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy,
 const About = ({scrollToTop}) => {
 
   return(
-    <Element name="about" className="element" >
-      <div className="about-section">
-        <h1>About Section</h1>
+    <div className="about-section">
+      <Element name="about" className="element" >
+        <div className="spacer"></div>
+      </Element>
+      
+      <h1>About Section</h1>
 
-        <a onClick={scrollToTop}>To the top!</a>
-      </div>
-    </Element>
+      <a onClick={scrollToTop}>To the top!</a>
+    </div>
   );
 };
 

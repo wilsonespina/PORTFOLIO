@@ -2,11 +2,13 @@
   background-color: $nav-bar !important;
   height: 100px;
   a {
-    font-size: 18px !important;
-    color: #D0DEE9 !important;
+    color: #D0DEE9;
   }
 }
 
+.section-link {
+  font-size: 15px;
+}
 
 // .projects-link  {
 //   background-color: yellow;

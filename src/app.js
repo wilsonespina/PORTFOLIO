@@ -29,6 +29,8 @@ class App extends React.Component {
 
   componentDidMount() {
 
+    this.scrollToTop();
+
     Events.scrollEvent.register('begin', function() {
       console.log('begin', arguments);
     });
@@ -48,31 +50,31 @@ class App extends React.Component {
       smooth: 'easeInOutQuart'
     });
   }
-  scrollToWithContainer() {
-
-    let goToContainer = new Promise((resolve, reject) => {
-
-      Events.scrollEvent.register('end', () => {
-        resolve();
-        Events.scrollEvent.remove('end');
-      });
-
-      scroller.scrollTo('scroll-container', {
-        duration: 800,
-        delay: 0,
-        smooth: 'easeInOutQuart'
-      });
-
-    });
-
-    goToContainer.then(() =>
-      scroller.scrollTo('scroll-container-second-element', {
-        duration: 800,
-        delay: 0,
-        smooth: 'easeInOutQuart',
-        containerId: 'scroll-container'
-      }));
-  }
+  // scrollToWithContainer() {
+  //
+  //   let goToContainer = new Promise((resolve, reject) => {
+  //
+  //     Events.scrollEvent.register('end', () => {
+  //       resolve();
+  //       Events.scrollEvent.remove('end');
+  //     });
+  //
+  //     scroller.scrollTo('scroll-container', {
+  //       duration: 800,
+  //       delay: 0,
+  //       smooth: 'easeInOutQuart'
+  //     });
+  //
+  //   });
+  //
+  //   goToContainer.then(() =>
+  //     scroller.scrollTo('scroll-container-second-element', {
+  //       duration: 800,
+  //       delay: 0,
+  //       smooth: 'easeInOutQuart',
+  //       containerId: 'scroll-container'
+  //     }));
+  // }
   componentWillUnmount() {
     Events.scrollEvent.remove('begin');
     Events.scrollEvent.remove('end');
@@ -88,13 +90,21 @@ class App extends React.Component {
             scrollToWithContainer={this.scrollToWithContainer}
           />
           <Main
-            scrollToTop={this.scrollToTop} />
+            scrollToTop={this.scrollToTop}
+            scrollTo={this.scrollTo}
+            scrollToWithContainer={this.scrollToWithContainer} />
           <Projects
-            scrollToTop={this.scrollToTop} />
+            scrollToTop={this.scrollToTop}
+            scrollTo={this.scrollTo}
+            scrollToWithContainer={this.scrollToWithContainer} />
           <About
-            scrollToTop={this.scrollToTop} />
+            scrollToTop={this.scrollToTop}
+            scrollTo={this.scrollTo}
+            scrollToWithContainer={this.scrollToWithContainer} />
           <Contact
-            scrollToTop={this.scrollToTop} />
+            scrollToTop={this.scrollToTop}
+            scrollTo={this.scrollTo}
+            scrollToWithContainer={this.scrollToWithContainer} />
 
         </div>
       </Router>
