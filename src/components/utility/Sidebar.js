@@ -5,7 +5,7 @@ const Sidebar = () => {
 
   return(
     <div className="sidebar-section">
-      <h2><i className="fa fa-angle-down" aria-hidden="true"></i> WILSON_ESPINA</h2>
+
     </div>
   );
 };

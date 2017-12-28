@@ -6,7 +6,6 @@ $font-green: #A6E22E;
 $font-yellow: #E6D550;
 $font-white: #F8F8F2;
 
-
 @import "navBar";
 @import "main";
 @import "about";
@@ -17,3 +16,7 @@ $font-white: #F8F8F2;
 div.spacer {
   height: 50px;
 }
+
+// div.section {
+//   padding-left: 15px;
+// }

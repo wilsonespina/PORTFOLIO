@@ -1,19 +1,20 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
+import { Row, Col } from 'react-bootstrap';
 import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 const Contact = ({scrollToTop}) => {
 
   return(
-    <div className="contact-section">
+    <Row className="contact-section section container-fluid">
       <Element name="contact" className="element" >
-        <div className="spacer"></div>
+        {/* <div className="spacer"></div> */}
+        <h1>Contact Section</h1>
       </Element>
-      
-      <h1>Contact Section</h1>
+
 
       <a onClick={scrollToTop}>To the top!</a>
-    </div>
+    </Row>
   );
 };
 
