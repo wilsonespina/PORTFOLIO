@@ -9,7 +9,7 @@ import Main from './components/main/Main';
 import Projects from './components/main/Projects';
 import About from './components/utility/About';
 import Contact from './components/utility/Contact';
-// import Sidebar from './components/utility/Sidebar'
+import Sidebar from './components/utility/Sidebar';
 
 import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
@@ -60,23 +60,8 @@ class App extends React.Component {
             showNav={this.state.showNav}
             handleClick={this.handleClick}/>
 
-          <SideNav
-            showNav        =  {this.state.showNav}
-            onHideNav      =  {() => this.setState({showNav: false})}
-            title          =  "Wilson Espina"
-            titleStyle     =  {{backgroundColor: '#111314'}}
-            itemStyle      =  {{backgroundColor: '#111314'}}
-            itemHoverStyle =  {{backgroundColor: '#5CD0EF'}}
-            navStyle       =  {{
-              backgroundColor: '#111314',
-              fontSize: '20px',
-              width: '1000px'
-            }}
-            items={[
-              <p><i className="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</p>,
-              <p><i className="fa fa-github" aria-hidden="true"></i> GitHub</p>,
-              <p>GA Profile</p>,
-            ]} />
+          <Sidebar
+            showNav={this.state.showNav} />
 
           <Main
             scrollToTop={this.scrollToTop}
@@ -90,8 +75,6 @@ class App extends React.Component {
           <Contact
             scrollToTop={this.scrollToTop}
             scrollTo={this.scrollTo} />
-          {/* </Col> */}
-
 
         </Row>
       </Router>

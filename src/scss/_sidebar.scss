@@ -2,5 +2,12 @@ aside {
   padding-top: 20px;
   ul {
     list-style: none;
+    a:hover {
+      text-decoration: none;
+    }
   }
+}
+
+.ga-icon {
+  width: 20px;
 }

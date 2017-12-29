@@ -71,7 +71,7 @@ const Projects = ({scrollTo}) => {
 
 
             <h2 className="span-green">JavaScript Game</h2>
-            <p className="span-white">Project at GA</p>
+            <p className="span-white">Project at GA</p> herok
           </Col>
         </Col>
       </Row>
