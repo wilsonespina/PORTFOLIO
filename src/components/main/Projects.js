@@ -20,10 +20,10 @@ const Projects = ({scrollTo}) => {
           </Col>
 
           <Col md={6} className="project-text-right">
-            <h1 className="span-white"><span className="span-blue">Project 4 <span className="span-pink">-</span> </span><span className="span-yellow">'TRACE'</span></h1>
+            <h1 className="span-white"><span className="span-blue">Project 4 <span className="span-pink">-</span> </span><span className="span-yellow text-small">'TRACE'</span></h1>
 
-            <h2>MERN stack application</h2>
-            <p>Project at GA</p>
+            <h2 className="span-green">MERN stack application</h2>
+            <p className="span-white">Project at GA</p>
           </Col>
         </Col>
       </Row>
@@ -35,11 +35,11 @@ const Projects = ({scrollTo}) => {
           </Col>
 
           <Col md={6} className="project-text-right">
-            <h1 className="span-white"> {'<'}<span className="span-blue">Project 3 <span className="span-pink">=</span> </span><span className="span-yellow">'Gigly'</span>{'>'}</h1>
+            <h1 className="span-white"><span className="span-blue">Project 3 <span className="span-pink">-</span> </span><span className="span-yellow text-small">'Gigly'</span></h1>
 
 
-            <h2>Group Project</h2>
-            <p>Project at GA</p>
+            <h2 className="span-green">Group Project</h2>
+            <p className="span-white">Project at GA</p>
           </Col>
         </Col>
       </Row>
@@ -51,11 +51,11 @@ const Projects = ({scrollTo}) => {
           </Col>
 
           <Col md={6} className="project-text-right">
-            <h1 className="span-white"> {'<'}<span className="span-blue">Project 2 <span className="span-pink">=</span> </span><span className="span-yellow">'KatSuper Store'</span>{'>'}</h1>
+            <h1 className="span-white"><span className="span-blue">Project 2 <span className="span-pink">-</span> </span><span className="span-yellow text-small">'KatSuper Store'</span></h1>
 
 
-            <h2>RESTful app</h2>
-            <p>Project at GA</p>
+            <h2 className="span-green">RESTful app</h2>
+            <p className="span-white">Project at GA</p>
           </Col>
         </Col>
       </Row>
@@ -67,11 +67,11 @@ const Projects = ({scrollTo}) => {
           </Col>
 
           <Col md={6} className="project-text-right">
-            <h1 className="span-white"> {'<'}<span className="span-blue">Project 1 <span className="span-pink">=</span> </span><span className="span-yellow">'Can You Diglett?'</span>{'>'}</h1>
+            <h1 className="span-white"><span className="span-blue">Project 1 <span className="span-pink">-</span> </span><span className="span-yellow text-small">'Can You Diglett?'</span></h1>
 
 
-            <h2>JavaScript Game</h2>
-            <p>Project at GA</p>
+            <h2 className="span-green">JavaScript Game</h2>
+            <p className="span-white">Project at GA</p>
           </Col>
         </Col>
       </Row>
