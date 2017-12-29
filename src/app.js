@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Row, Col } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 import SideNav, { MenuIcon } from 'react-simple-sidenav';
 
 import NavBar from './components/utility/NavBar';

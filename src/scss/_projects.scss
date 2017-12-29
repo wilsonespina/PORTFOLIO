@@ -1,8 +1,27 @@
 div.projects-section{
-  height: 600px;
+  min-height: 600px;
   background-color: grey;
 }
 
 h1.projects-heading{
-
+  display: none;
 }
+
+// ************* tile styling ****************
+
+img.project-img {
+  width: 100%;
+}
+
+div.project-4 {
+  background-color: white;
+}
+
+div.project-tile {
+  background-color: black;
+  padding: 10px 0;
+}
+
+// div.project-spacer {
+//   width: 100%;
+// }
