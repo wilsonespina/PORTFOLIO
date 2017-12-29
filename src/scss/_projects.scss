@@ -7,10 +7,17 @@ h1.projects-heading{
   display: none;
 }
 
+
 // ************* tile styling ****************
 
 img.project-img {
   width: 100%;
+  height: auto;
+}
+
+div.project-image-left {
+  overflow: hidden;
+  height: 100%;
 }
 
 div.project-4 {
@@ -22,6 +29,12 @@ div.project-tile {
   padding: 10px 0;
 }
 
-// div.project-spacer {
-//   width: 100%;
-// }
+
+// *********images********
+//<img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/AdobeXD_screenshot_05_12_17.jpg" alt="image02" className="project-img"/>
+//<img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/Trello_Screenshot_06_12_17.jpg" alt="image03" className="project-img"/>
+//<img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/initial_sketch1.jpg" alt="image04" className="project-img"/>
+//<img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_combined.jpg" alt="image05" className="project-img"/>
+//<img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_comments_rating.jpg" alt="image06" className="project-img"/>
+//<img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_profile.png" alt="image07" className="project-img"/>
+//<img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_usersshow.png" alt="image08" className="project-img"/>

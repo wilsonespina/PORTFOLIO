@@ -13,10 +13,6 @@ $font-white: #F8F8F2;
 @import "projects";
 @import "sidebar";
 
-// div.spacer {
-//   height: 50px;
-// }
-
-// div.section {
-//   padding-left: 15px;
-// }
+body {
+  font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}
