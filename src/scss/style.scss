@@ -5,6 +5,8 @@ $font-pink: #F92672;
 $font-green: #A6E22E;
 $font-yellow: #E6D550;
 $font-white: #F8F8F2;
+$main-black: #151718;
+$sidebar-black: #111314;
 
 @import "navBar";
 @import "main";
@@ -19,4 +21,19 @@ body {
 
 h1.heading {
   display: none;
+}
+
+//*******heading styling*******
+
+.span-white {
+  color: $font-white;
+}
+.span-blue {
+  color: $font-blue;
+}
+.span-yellow {
+  color: $font-yellow;
+}
+.span-pink {
+  color: $font-pink;
 }

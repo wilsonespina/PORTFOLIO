@@ -20,7 +20,8 @@ const Projects = ({scrollTo}) => {
           </Col>
 
           <Col md={6} className="project-text-right">
-            <h1>Project 4 - 'TRACE' </h1>
+            <h1 className="span-white"><span className="span-blue">Project 4 <span className="span-pink">-</span> </span><span className="span-yellow">'TRACE'</span></h1>
+
             <h2>MERN stack application</h2>
             <p>Project at GA</p>
           </Col>
@@ -34,7 +35,9 @@ const Projects = ({scrollTo}) => {
           </Col>
 
           <Col md={6} className="project-text-right">
-            <h1>Project 3 - 'Gigly' </h1>
+            <h1 className="span-white"> {'<'}<span className="span-blue">Project 3 <span className="span-pink">=</span> </span><span className="span-yellow">'Gigly'</span>{'>'}</h1>
+
+
             <h2>Group Project</h2>
             <p>Project at GA</p>
           </Col>
@@ -48,7 +51,9 @@ const Projects = ({scrollTo}) => {
           </Col>
 
           <Col md={6} className="project-text-right">
-            <h1>Project 2 - 'KatSuper Store' </h1>
+            <h1 className="span-white"> {'<'}<span className="span-blue">Project 2 <span className="span-pink">=</span> </span><span className="span-yellow">'KatSuper Store'</span>{'>'}</h1>
+
+
             <h2>RESTful app</h2>
             <p>Project at GA</p>
           </Col>
@@ -62,7 +67,9 @@ const Projects = ({scrollTo}) => {
           </Col>
 
           <Col md={6} className="project-text-right">
-            <h1>Project 1 - 'Can You Diglett?' </h1>
+            <h1 className="span-white"> {'<'}<span className="span-blue">Project 1 <span className="span-pink">=</span> </span><span className="span-yellow">'Can You Diglett?'</span>{'>'}</h1>
+
+
             <h2>JavaScript Game</h2>
             <p>Project at GA</p>
           </Col>
