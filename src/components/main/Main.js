@@ -7,9 +7,11 @@ const Main = ({scrollTo}) => {
 
   return(
     <Row className="main-section section container-fluid">
+      <img className="main-head-img" src="../../assets/tube_wallpaper.jpg"/>
       <Element name="main" className="element" >
         <h1 className="heading">Main Section</h1>
       </Element>
+
 
       <img src="https://user-images.githubusercontent.com/28314323/32404855-373aa592-c151-11e7-9661-5e870aca48b6.jpg" alt="profile-img" className="profile-pic"/>
 

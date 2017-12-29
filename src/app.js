@@ -27,7 +27,7 @@ class App extends React.Component {
   state = { showNav: false }
 
   componentDidMount() {
-    this.scrollTo();
+    this.scrollToTop();
   }
 
   scrollToTop() {
