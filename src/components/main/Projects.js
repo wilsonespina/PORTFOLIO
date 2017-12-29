@@ -6,14 +6,14 @@ import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy,
 const Projects = ({scrollTo}) => {
 
   return(
-    <Row className="projects-section section fluid">
+    <Row className="projects-section section container-fluid">
 
       <Element name="projects" className="element" >
         <h1 className="heading">Projects</h1>
       </Element>
 
       <Row className="project-4">
-        <Col xs={11} sm={11} smOffset={0.5} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
+        <Col xs={12} sm={12} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
           <Col md={6} className="project-image-left">
             <img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_landing.jpg" alt="image01" className="project-img"/>
 
@@ -28,7 +28,7 @@ const Projects = ({scrollTo}) => {
       </Row>
 
       <Row className="project-3">
-        <Col xs={11} sm={11} smOffset={0.5} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
+        <Col xs={12} sm={12} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
           <Col md={6} className="project-image-left">
             <img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_landing.jpg" alt="image01" className="project-img"/>
           </Col>
@@ -42,7 +42,7 @@ const Projects = ({scrollTo}) => {
       </Row>
 
       <Row className="project-2">
-        <Col xs={11} sm={11} smOffset={0.5} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
+        <Col xs={12} sm={12} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
           <Col md={6} className="project-image-left">
             <img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-2/README/screenshot_landingpage.jpg" alt="image01" className="project-img"/>
           </Col>
@@ -56,7 +56,7 @@ const Projects = ({scrollTo}) => {
       </Row>
 
       <Row className="project-1">
-        <Col xs={11} sm={11} smOffset={0.5} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
+        <Col xs={12} sm={12} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
           <Col md={6} className="project-image-left">
             <img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-1/README/screenshot_game.jpg" alt="image01" className="project-img"/>
           </Col>

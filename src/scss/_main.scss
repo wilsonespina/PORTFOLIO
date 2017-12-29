@@ -5,11 +5,12 @@ div.main-section{
 }
 
 img.profile-pic {
-  width: 500px;
+  min-height: auto;
+  max-width: 30%;
   float: right;
 }
 
 img.main-head-img {
-  min-height: 800px;
-  width: 100%;
+  min-height: auto;
+  max-width: 100%;
 }
