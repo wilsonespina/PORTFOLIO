@@ -9,7 +9,7 @@ const Projects = ({scrollTo}) => {
     <Row className="projects-section section fluid">
 
       <Element name="projects" className="element" >
-        <h1 className="projects-heading">Projects</h1>
+        <h1 className="heading">Projects</h1>
       </Element>
 
       <Row className="project-4">

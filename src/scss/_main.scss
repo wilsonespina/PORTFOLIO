@@ -1,5 +1,10 @@
 div.main-section{
-  height: 600px;
+  min-height: 600px;
   background-color: green;
   margin-top: 30px;
+}
+
+img.profile-pic {
+  width: 500px;
+  float: right;
 }
