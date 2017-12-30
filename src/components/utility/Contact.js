@@ -11,7 +11,7 @@ const Contact = ({scrollTo}) => {
         <h1>Contact Section</h1>
       </Element>
 
-
+      <h2>Email Section</h2>
       <a onClick={scrollTo}>To the top!</a>
     </Row>
   );

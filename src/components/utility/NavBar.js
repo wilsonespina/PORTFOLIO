@@ -13,10 +13,11 @@ const NavBar = ({ handleClick }) => {
           <Link activeClass="active" className="navbar-brand main-logo" to="main" spy={true} smooth={true} duration={500} offset={-50}><MenuIcon onClick={handleClick}/> Portfolio</Link>
 
         </div>
+
         <div className="collapse navbar-collapse full-navbar">
           <ul className="nav navbar-nav pull-right">
-            <li><Link activeClass="active" className="section-link" to="projects" spy={true} smooth={true} duration={500} offset={-50} >projects</Link></li>
             <li><Link activeClass="active" className="section-link" to="about" spy={true} smooth={true} duration={500} offset={-50} >about</Link></li>
+            <li><Link activeClass="active" className="section-link" to="projects" spy={true} smooth={true} duration={500} offset={-50} >projects</Link></li>
             <li><Link activeClass="active" className="section-link" to="contact" spy={true} smooth={true} duration={500} offset={-50} >contact</Link></li>
           </ul>
         </div>

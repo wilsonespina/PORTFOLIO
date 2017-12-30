@@ -66,10 +66,10 @@ class App extends React.Component {
           <Main
             scrollToTop={this.scrollToTop}
             scrollTo={this.scrollTo} />
-          <Projects
+          <About
             scrollToTop={this.scrollToTop}
             scrollTo={this.scrollTo} />
-          <About
+          <Projects
             scrollToTop={this.scrollToTop}
             scrollTo={this.scrollTo} />
           <Contact

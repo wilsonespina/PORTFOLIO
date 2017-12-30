@@ -6,7 +6,9 @@ import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy,
 const Main = ({scrollTo}) => {
 
   return(
-    <Row className="main-section section container-fluid"> <img className="main-head-img" src="../../assets/tube_wallpaper.jpg"/>
+    <Row className="main-section section container-fluid">
+      <img className="main-head-img" src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/portfolio/tube_wallpaper.jpg"/>
+
       <Element name="main" className="element" >
         <h1 className="heading">Main Section</h1>
       </Element>
