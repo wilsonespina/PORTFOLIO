@@ -1,6 +1,7 @@
 div.main-section{
   min-height: 600px;
-  background-color: green;
+  // background-color: green;
+  background-color: $main-black;
   margin-top: 30px;
 }
 
@@ -14,4 +15,30 @@ img.profile-pic {
 .main-head-img {
   min-height: auto;
   max-width: 100%;
+}
+
+div.main-top-section {
+  position: relative;
+}
+
+h1.animation-header {
+  position: absolute;
+  color: white;
+  top: 40%;
+  left: 15%;
+  font-family: 'tradegothiclt-bold', sans-serif;
+  text-transform: uppercase;
+  font-size: 6em;
+  font-weight: bold;
+}
+
+span.blinking {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
 }
