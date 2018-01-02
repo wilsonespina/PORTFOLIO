@@ -15,7 +15,7 @@ const Projects = ({scrollTo}) => {
       <Row className="project-4">
         <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
           <Col xs={12} sm={6} md={6} lg={6} className="project-image-left">
-            <img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_landing.jpg" alt="image01" className="project-img responsive-img"/>
+            <img src={'../../assets/screenshot_landing.jpg'|| 'https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_landing.jpg' } alt="image01" className="project-img responsive-img"/>
 
           </Col>
 
@@ -31,7 +31,7 @@ const Projects = ({scrollTo}) => {
       <Row className="project-3">
         <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
           <Col xs={12} sm={6} md={6} lg={6} className="project-image-left">
-            <img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_landing.jpg" alt="image01" className="project-img"/>
+            <img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_landing.jpg" alt="image02" className="project-img"/>
           </Col>
 
           <Col xs={12} sm={6} md={6} lg={6} className="project-text-right">
@@ -47,7 +47,7 @@ const Projects = ({scrollTo}) => {
       <Row className="project-2">
         <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
           <Col xs={12} sm={6} md={6} lg={6} className="project-image-left">
-            <img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-2/README/screenshot_landingpage.jpg" alt="image01" className="project-img"/>
+            <img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-2/README/screenshot_landingpage.jpg" alt="image03" className="project-img"/>
           </Col>
 
           <Col xs={12} sm={6} md={6} lg={6} className="project-text-right">
@@ -63,7 +63,7 @@ const Projects = ({scrollTo}) => {
       <Row className="project-1">
         <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
           <Col xs={12} sm={6} md={6} lg={6} className="project-image-left">
-            <img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-1/README/screenshot_game.jpg" alt="image01" className="project-img"/>
+            <img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-1/README/screenshot_game.jpg" alt="image04" className="project-img"/>
           </Col>
 
           <Col xs={12} sm={6} md={6} lg={6} className="project-text-right">

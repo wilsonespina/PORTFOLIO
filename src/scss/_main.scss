@@ -1,3 +1,66 @@
+// SMARTPHONES PORTRAIT
+@media only screen and (min-width: 300px) {
+  h1.animation-header {
+    position: absolute;
+    color: yellow;
+    top: 35%;
+    left: 10%;
+    font-family: 'tradegothiclt-bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+    max-width: 80%;
+  }
+}
+
+// SMARTPHONES LANDSCAPE
+@media only screen and (min-width: 480px) {
+  h1.animation-header {
+    position: absolute;
+    color: yellow;
+    top: 35%;
+    left: 10%;
+    font-family: 'tradegothiclt-bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: bold;
+    max-width: 80%;
+  }
+}
+
+// TABLETS  PORTRAIT
+@media only screen and (min-width: 768px) {
+  h1.animation-header {
+    position: absolute;
+    color: yellow;
+    top: 35%;
+    left: 10%;
+    font-family: 'tradegothiclt-bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 5em;
+    font-weight: bold;
+    max-width: 80%;
+
+  }
+}
+
+// TABLET LANDSCAPE / DESKTOP
+
+@media only screen and (min-width: 1024px) {
+  h1.animation-header {
+    position: absolute;
+    color: yellow;
+    top: 35%;
+    left: 10%;
+    font-family: 'tradegothiclt-bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 6em;
+    font-weight: bold;
+    max-width: 80%;
+  }
+
+}
+
 div.main-section{
   min-height: 600px;
   // background-color: green;
@@ -15,25 +78,17 @@ img.profile-pic {
 .main-head-img {
   min-height: auto;
   max-width: 100%;
+  opacity: 0.8;
 }
+
 
 div.main-top-section {
   position: relative;
 }
 
-h1.animation-header {
-  position: absolute;
-  color: white;
-  top: 40%;
-  left: 15%;
-  font-family: 'tradegothiclt-bold', sans-serif;
-  text-transform: uppercase;
-  font-size: 6em;
-  font-weight: bold;
-}
 
 span.blinking {
-  border-right: .05em solid;
+  border-right: .05em solid white;
   animation: caret 1s steps(1) infinite;
 }
 
