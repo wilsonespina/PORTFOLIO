@@ -15,7 +15,12 @@ $sidebar-black: #111314;
 @import "projects";
 @import "sidebar";
 
+html {
+  overflow-x: hidden;
+}
+
 body {
+  overflow-x: hidden;
   font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 }
 
@@ -49,13 +54,4 @@ h1.heading {
 }
 .medium-font {
   font-size: 140%;
-}
-
-
-//*****section height*******
-
-.view-height {
-  max-height: 100vh;
-  min-width: 100%;
-  overflow-x: hidden;
 }

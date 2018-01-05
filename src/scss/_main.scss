@@ -80,9 +80,18 @@ img.profile-pic {
 }
 
 
+//*****section height*******
+
+img.view-height {
+  max-height: 100vh;
+  // min-width: 100%;
+  width: auto;
+  overflow-x: hidden;
+}
+
+
 div.main-top-section {
   position: relative;
-  margin-top: -10px;
 }
 
 
