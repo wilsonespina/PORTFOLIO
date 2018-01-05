@@ -50,7 +50,7 @@ const Main = ({scrollTo}) => {
     <Row className="main-section section container-fluid">
 
       <div className="main-top-section">
-        <img className="main-head-img" src={'../../assets/tube_wallpaper.jpg' || 'https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/portfolio/tube_wallpaper.jpg'} />
+        <img className="main-head-img view-height" src={'../../assets/tube_wallpaper.jpg' || 'https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/portfolio/tube_wallpaper.jpg'} />
         <h1 className="animation-header">WELCOME</h1>
       </div>
 
