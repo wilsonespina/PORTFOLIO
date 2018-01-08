@@ -17,9 +17,9 @@ document.addEventListener('DOMContentLoaded',function(event){
       setTimeout(function() {
         typeWriter(text, i + 1, fnCallback);
       }, 100);
-    }
+
     // text finished, call callback if there is a callback function
-    else if (typeof fnCallback === 'function') {
+    } else if (typeof fnCallback === 'function') {
       // call callback after timeout
       setTimeout(fnCallback, 3000);
     }
@@ -30,9 +30,9 @@ document.addEventListener('DOMContentLoaded',function(event){
       setTimeout(function() {
         StartTextAnimation(0);
       }, 3000);
-    }
+
     // check if dataText[i] exists
-    if (i < dataText[i].length) {
+    } else if (i < dataText[i].length) {
       // text exists! start typewriter animation
       typeWriter(dataText[i], 0, function(){
         // console.log(dataText[i]);
@@ -58,12 +58,14 @@ const Main = ({scrollTo}) => {
         <h1 className="heading">Main Section</h1>
       </Element>
 
-      <img src={'../../assets/HEADSHOT.png' ||'https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/headshots/HEADSHOT.png'} alt="profile-img" className="profile-pic responsive-img"/>
+      <div className="container-fluid">
+        <img src='../../assets/HEADSHOT.png' alt="profile-img" className="profile-pic responsive-img"/>
 
-      <h1 className="span-blue">Wilson Espina</h1>
-      <h3 className="span-pink"><span className="medium-font">Welcome</span> to my <span className="large-font"><em>Portfolio....</em></span></h3>
-      <h3 className="span-green">Web Developer</h3>
-      <h3 className="span-white">(ex)Breakdancer</h3>
+        <h1 className="span-blue">Wilson Espina</h1>
+        <h3 className="span-pink"><span className="medium-font">Welcome</span> to my <span className="large-font"><em>Portfolio....</em></span></h3>
+        <h3 className="span-green">Web Developer</h3>
+        <h3 className="span-white">(ex)Breakdancer</h3>
+      </div>
 
 
       {/* <a onClick={scrollTo}>To the top!</a> */}

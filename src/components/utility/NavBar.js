@@ -10,7 +10,7 @@ const NavBar = ({ handleClick }) => {
       <div className="container-fluid full-navbar">
         <div className="navbar-header">
 
-          <Link activeClass="active" className="navbar-brand main-logo" to="main" spy={true} smooth={true} duration={500} offset={-50}><MenuIcon onClick={handleClick}/> Portfolio</Link>
+          <Link activeClass="active" className="navbar-brand main-logo" to="main" spy={true} smooth={true} duration={500} offset={-50}><MenuIcon onClick={handleClick}/> wilson||espina</Link>
 
         </div>
 
@@ -21,6 +21,17 @@ const NavBar = ({ handleClick }) => {
             <li><Link activeClass="active" className="section-link" to="contact" spy={true} smooth={true} duration={500} offset={-50} >contact</Link></li>
           </ul>
         </div>
+
+        <div className="spacer-nav spacer-yellow"></div>
+        <div className="spacer-nav spacer-green"></div>
+        <div className="spacer-nav spacer-blue"></div>
+        <div className="spacer-nav spacer-pink"></div>
+        <div className="spacer-nav spacer-yellow"></div>
+        <div className="spacer-nav spacer-green"></div>
+        <div className="spacer-nav spacer-blue"></div>
+        <div className="spacer-nav spacer-pink"></div>
+        <div className="spacer-black"></div>
+
 
       </div>
     </nav>

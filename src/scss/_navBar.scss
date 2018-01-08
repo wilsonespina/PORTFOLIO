@@ -1,11 +1,21 @@
 .navBar {
-  background-color: $nav-bar !important;
+  // background-color: $nav-bar !important;
+  background-color: white !important;
   height: 50px;
+
   a {
-    color: #D0DEE9;
+    color: #151718;
+    &:hover {
+      cursor: pointer;
+    }
   }
   div ul li {
     height: 100%;
+  }
+
+  .full-navbar{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
 
@@ -13,7 +23,27 @@
   font-size: 14px;
 }
 
-.full-navbar {
-  // position: absolute;
-  // bottom: 0;
+div.spacer-nav {
+  float: left;
+  height: 10px;
+  width: 5%;
+}
+div.spacer-black {
+  float: left;
+  height: 10px;
+  width: 60%;
+  background-color: #151718;
+}
+
+div.spacer-yellow {
+  background-color: #E6D550;
+}
+div.spacer-green {
+  background-color: #A6E22E;
+}
+div.spacer-blue {
+  background-color: #5CD0EF;
+}
+div.spacer-pink {
+  background-color: #F92672;
 }
