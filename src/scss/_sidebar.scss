@@ -1,10 +1,13 @@
 aside {
-  padding-top: 20px;
+  padding-top: 40px;
   ul {
     list-style: none;
     a:hover {
       text-decoration: none;
     }
+  }
+  nav {
+    z-index: 100000;
   }
 }
 

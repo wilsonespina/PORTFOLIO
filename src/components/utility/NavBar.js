@@ -1,16 +1,52 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import { MenuIcon } from 'react-simple-sidenav';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
+require('react-bootstrap/lib/NavbarHeader');
+require('react-bootstrap/lib/NavbarToggle');
+require('react-bootstrap/lib/NavbarCollapse');
 
 import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const NavBar = ({ handleClick }) => {
   return(
-    <nav className="navbar navBar navbar-static-top navbar-fixed-top">
+    <Navbar fixedTop fluid className="navBar">
+      <Navbar.Header className="navbar-header">
+
+        <i className="fa fa-bars" aria-hidden="true" onClick={handleClick} id="menu-icon"></i>
+
+        <Link activeClass="active" className="navbar-brand main-logo" to="main" spy={true} smooth={true} duration={500} offset={-50}>wilson||espina</Link>
+
+        <Navbar.Toggle />
+      </Navbar.Header>
+
+      <Navbar.Collapse className="full-navbar">
+        <ul className="nav navbar-nav pull-right">
+          <li><Link activeClass="active" className="section-link" to="about" spy={true} smooth={true} duration={500} offset={-60} >about</Link></li>
+          <li><Link activeClass="active" className="section-link" to="projects" spy={true} smooth={true} duration={500} offset={-60} >projects</Link></li>
+          <li><Link activeClass="active" className="section-link" to="contact" spy={true} smooth={true} duration={500} offset={-60} >contact</Link></li>
+        </ul>
+      </Navbar.Collapse>
+
+      <div className="spacer-halfblack"></div>
+      <div className="spacer-nav spacer-yellow"></div>
+      <div className="spacer-nav spacer-green"></div>
+      <div className="spacer-nav spacer-blue"></div>
+      <div className="spacer-nav spacer-pink"></div>
+      <div className="spacer-nav spacer-yellow"></div>
+      <div className="spacer-nav spacer-green"></div>
+      <div className="spacer-nav spacer-blue"></div>
+      <div className="spacer-nav spacer-pink"></div>
+      <div className="spacer-halfblack"></div>
+
+    </Navbar>
+
+    /* <nav className="navbar navBar navbar-static-top navbar-fixed-top">
       <div className="container-fluid full-navbar">
         <div className="navbar-header">
 
-          <Link activeClass="active" className="navbar-brand main-logo" to="main" spy={true} smooth={true} duration={500} offset={-50}><MenuIcon onClick={handleClick}/> wilson||espina</Link>
+          <i className="fa fa-bars" aria-hidden="true" onClick={handleClick} id="menu-icon"></i>
+
+          <Link activeClass="active" className="navbar-brand main-logo" to="main" spy={true} smooth={true} duration={500} offset={-50}>wilson||espina</Link>
 
         </div>
 
@@ -22,19 +58,21 @@ const NavBar = ({ handleClick }) => {
           </ul>
         </div>
 
-        <div className="spacer-nav spacer-yellow"></div>
-        <div className="spacer-nav spacer-green"></div>
-        <div className="spacer-nav spacer-blue"></div>
-        <div className="spacer-nav spacer-pink"></div>
-        <div className="spacer-nav spacer-yellow"></div>
-        <div className="spacer-nav spacer-green"></div>
-        <div className="spacer-nav spacer-blue"></div>
-        <div className="spacer-nav spacer-pink"></div>
         <div className="spacer-black"></div>
+        <div className="spacer-halfblack"></div>
+        <div className="spacer-nav spacer-yellow"></div>
+        <div className="spacer-nav spacer-green"></div>
+        <div className="spacer-nav spacer-blue"></div>
+        <div className="spacer-nav spacer-pink"></div>
+        <div className="spacer-nav spacer-yellow"></div>
+        <div className="spacer-nav spacer-green"></div>
+        <div className="spacer-nav spacer-blue"></div>
+        <div className="spacer-nav spacer-pink"></div>
+        <div className="spacer-halfblack"></div>
 
 
       </div>
-    </nav>
+    </nav> */
 
   );
 };

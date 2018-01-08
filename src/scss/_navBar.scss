@@ -1,23 +1,104 @@
-.navBar {
-  // background-color: $nav-bar !important;
-  background-color: white !important;
-  height: 50px;
-
-  a {
-    color: #151718;
-    &:hover {
-      cursor: pointer;
+// SMARTPHONES PORTRAIT
+@media only screen and (min-width: 300px) {
+  .navBar {
+    background-color: white !important;
+    min-height: 50px;
+    li{
+      &:hover {
+        background-color: #EBEBEC;
+      }
+      padding-right: 40px;
+    }
+    a {
+      color: #151718;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    div.container-fluid {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
     }
   }
-  div ul li {
-    height: 100%;
-  }
+}
 
-  .full-navbar{
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+// SMARTPHONES LANDSCAPE
+@media only screen and (min-width: 480px) {
+  .navBar {
+    background-color: white !important;
+    min-height: 50px;
+    li{
+      &:hover {
+        background-color: #EBEBEC;
+      }
+      padding-right: 40px;
+    }
+    a {
+      color: #151718;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    div.container-fluid {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
   }
 }
+
+// TABLETS  PORTRAIT
+@media only screen and (min-width: 768px) {
+  .navBar {
+    background-color: white !important;
+    height: 50px;
+    li{
+      &:hover {
+        background-color: #EBEBEC;
+      }
+      padding-right: 0px;
+    }
+    a {
+      color: #151718;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    div.container-fluid {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+}
+
+// TABLET LANDSCAPE / DESKTOP
+@media only screen and (min-width: 1024px) {
+  .navBar {
+    background-color: white !important;
+    height: 50px;
+    li{
+      &:hover {
+        background-color: #EBEBEC;
+      }
+      padding-right: 0px;
+    }
+    a {
+      color: #151718;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    div.container-fluid {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+}
+
+
+div.navbar-header {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .section-link {
   font-size: 14px;
@@ -32,6 +113,12 @@ div.spacer-black {
   float: left;
   height: 10px;
   width: 60%;
+  background-color: #151718;
+}
+div.spacer-halfblack {
+  float: left;
+  height: 10px;
+  width: 30%;
   background-color: #151718;
 }
 
