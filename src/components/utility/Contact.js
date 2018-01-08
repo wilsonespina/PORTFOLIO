@@ -12,7 +12,6 @@ const Contact = ({scrollTo}) => {
       </Element>
 
       <h2>Email</h2>
-      <form method="POST">
         {/* <FormGroup
           controlId="formBasicText"
           validationState={this.getValidationState()}
@@ -28,23 +27,18 @@ const Contact = ({scrollTo}) => {
           <HelpBlock>Validation is based on string length.</HelpBlock>
         </FormGroup> */}
 
-        <form method="POST">
-          <label htmlFor="name">Name</label>
-          <input type="text" name="name" />
+      <form method="POST">
+        <label htmlFor="name">Name</label>
+        <input type="text" name="name" />
 
-          <label htmlFor="email">Email</label>
-          <input type="email" name="email" />
+        <label htmlFor="email">Email</label>
+        <input type="email" name="email" />
 
-          <label htmlFor="message">Message</label>
-          <textarea name="message" rows="4"></textarea>
+        <label htmlFor="message">Message</label>
+        <textarea name="message" rows="4"></textarea>
 
-          <Button type="submit" bsStyle="success">SUBMIT</Button>
-        </form>
-
-
+        <Button type="submit" bsStyle="success">SUBMIT</Button>
       </form>
-
-
 
       <a onClick={scrollTo}>To the top!</a>
     </Row>

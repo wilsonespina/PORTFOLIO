@@ -58,7 +58,7 @@ const Main = ({scrollTo}) => {
         <h1 className="heading">Main Section</h1>
       </Element>
 
-      <div className="container-fluid">
+      <div className="container-fluid main-bottom-section">
         <img src='../../assets/HEADSHOT.png' alt="profile-img" className="profile-pic responsive-img"/>
 
         <h1 className="span-blue">Wilson Espina</h1>

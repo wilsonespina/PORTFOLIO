@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Row } from 'react-bootstrap';
-import SideNav, { MenuIcon } from 'react-simple-sidenav';
 
 import NavBar from './components/utility/NavBar';
 import Main from './components/main/Main';
@@ -10,6 +9,7 @@ import Projects from './components/main/Projects';
 import About from './components/utility/About';
 import Contact from './components/utility/Contact';
 import Sidebar from './components/utility/Sidebar';
+import Footerbar from './components/utility/Footerbar';
 
 import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
@@ -75,7 +75,7 @@ class App extends React.Component {
           <Contact
             scrollToTop={this.scrollToTop}
             scrollTo={this.scrollTo} />
-
+          <Footerbar />
         </Row>
       </Router>
     );

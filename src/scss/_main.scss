@@ -62,10 +62,14 @@
 }
 
 div.main-section{
-  min-height: 600px;
+  min-height: 100vh;
   // background-color: green;
   background-color: $main-black;
   margin-top: 30px;
+}
+
+div.main-bottom-section {
+  min-height: 100vh;
 }
 
 img.profile-pic {
