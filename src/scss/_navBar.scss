@@ -1,9 +1,12 @@
 // SMARTPHONES PORTRAIT
 @media only screen and (min-width: 300px) {
   .navBar {
+    text-align: center;
     background-color: white !important;
     min-height: 50px;
-    li{
+    > li {
+      float: none;
+      display: inline-block;
       &:hover {
         background-color: #EBEBEC;
       }
@@ -21,6 +24,11 @@
     }
     .fa {
       font-size: 35px;
+      color: #151718;
+      margin-top: 5px;
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 }
@@ -28,9 +36,12 @@
 // SMARTPHONES LANDSCAPE
 @media only screen and (min-width: 480px) {
   .navBar {
+    text-align: center;
     background-color: white !important;
     min-height: 50px;
-    li{
+    > li {
+      float: none;
+      display: inline-block;
       &:hover {
         background-color: #EBEBEC;
       }
@@ -48,6 +59,7 @@
     }
     .fa {
       font-size: 35px;
+      color: #151718;
     }
   }
 }
@@ -55,14 +67,24 @@
 // TABLETS  PORTRAIT
 @media only screen and (min-width: 768px) {
   .navBar {
+    text-align: center;
     background-color: white !important;
     height: 50px;
-    li{
+    > li {
+      float: none;
+      display: inline-block;
       &:hover {
         background-color: #EBEBEC;
       }
       padding-right: 0px;
     }
+
+    // li{
+    //   &:hover {
+    //     background-color: #EBEBEC;
+    //   }
+    //   padding-right: 0px;
+    // }
     a {
       color: #151718;
       &:hover {
@@ -75,6 +97,7 @@
     }
     .fa {
       font-size: 35px;
+      color: #151718;
     }
   }
 }
@@ -82,14 +105,24 @@
 // TABLET LANDSCAPE / DESKTOP
 @media only screen and (min-width: 1024px) {
   .navBar {
+    text-align: center;
     background-color: white !important;
     height: 50px;
-    li{
+    > li {
+      float: none;
+      display: inline-block;
       &:hover {
         background-color: #EBEBEC;
       }
       padding-right: 0px;
     }
+
+    // li{
+    //   &:hover {
+    //     background-color: #EBEBEC;
+    //   }
+    //   padding-right: 0px;
+    // }
     a {
       color: #151718;
       &:hover {
@@ -102,19 +135,29 @@
     }
     .fa {
       font-size: 35px;
+      color: #151718;
     }
   }
 }
 
 .center-logo {
-  // margin-left: 100px !important;
+  // margin-left: auto !important;
   // margin-right: auto !important;
-  margin: 0 auto;
+  text-align: center;
+  background-color: pink;
+  // li {
+  //     float: none;
+  //     display: inline-block;
+  //   a {
+  //     &:hover {
+  //       text-decoration: none;
+  //     }
+  //   }
+  // }
 }
 
 div.navbar-header {
   margin-left: 10px !important;
-  // margin-right: auto !important;
 }
 
 .section-link {
