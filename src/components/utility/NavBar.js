@@ -11,13 +11,15 @@ const NavBar = ({ handleClick }) => {
   return(
     <Navbar fixedTop fluid className="navBar">
       <Navbar.Header className="navbar-header">
-
+        {/* <br/> */}
         <i className="fa fa-bars" aria-hidden="true" onClick={handleClick} id="menu-icon"></i>
-
-        <Link activeClass="active" className="navbar-brand main-logo" to="main" spy={true} smooth={true} duration={500} offset={-50}>wilson||espina</Link>
-
         <Navbar.Toggle />
       </Navbar.Header>
+      
+      <Nav className="center-logo">
+        <Link activeClass="active" className="navbar-brand main-logo" to="main" spy={true} smooth={true} duration={500} offset={-60}>wilson||espina</Link>
+      </Nav>
+
 
       <Navbar.Collapse className="full-navbar">
         <ul className="nav navbar-nav pull-right">
@@ -28,14 +30,16 @@ const NavBar = ({ handleClick }) => {
       </Navbar.Collapse>
 
       <div className="spacer-halfblack"></div>
-      <div className="spacer-nav spacer-yellow"></div>
-      <div className="spacer-nav spacer-green"></div>
-      <div className="spacer-nav spacer-blue"></div>
-      <div className="spacer-nav spacer-pink"></div>
-      <div className="spacer-nav spacer-yellow"></div>
-      <div className="spacer-nav spacer-green"></div>
-      <div className="spacer-nav spacer-blue"></div>
-      <div className="spacer-nav spacer-pink"></div>
+      <div className="colour-bar-nav">
+        <div className="spacer-nav spacer-yellow"></div>
+        <div className="spacer-nav spacer-green"></div>
+        <div className="spacer-nav spacer-blue"></div>
+        <div className="spacer-nav spacer-pink"></div>
+        <div className="spacer-nav spacer-yellow"></div>
+        <div className="spacer-nav spacer-green"></div>
+        <div className="spacer-nav spacer-blue"></div>
+        <div className="spacer-nav spacer-pink"></div>
+      </div>
       <div className="spacer-halfblack"></div>
 
     </Navbar>
