@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded',function(event){
     // text finished, call callback if there is a callback function
     } else if (typeof fnCallback === 'function') {
       // call callback after timeout
-      setTimeout(fnCallback, 2000);
+      setTimeout(fnCallback, 1200);
     }
   }
   // start a typewriter animation for a text in the dataText array
@@ -57,16 +57,6 @@ const Main = ({scrollTo}) => {
       <Element name="main" className="element" >
         <h1 className="heading" id="main-section">Main Section</h1>
       </Element>
-
-      <div className="container-fluid main-bottom-section">
-        <img src='../../assets/HEADSHOT.png' alt="profile-img" className="profile-pic responsive-img"/>
-
-        <h1 className="span-blue">Wilson Espina</h1>
-        <h3 className="span-pink"><span className="medium-font">Welcome</span> to my <span className="large-font"><em>Portfolio....</em></span></h3>
-        <h3 className="span-green">Web Developer</h3>
-        <h3 className="span-white">(ex)Breakdancer</h3>
-      </div>
-
 
     </Row>
   );

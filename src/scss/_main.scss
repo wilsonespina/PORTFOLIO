@@ -68,9 +68,6 @@ div.main-section{
   margin-top: 30px;
 }
 
-div.main-bottom-section {
-  min-height: 100vh;
-}
 
 img.profile-pic {
   height: auto;
@@ -91,8 +88,17 @@ img.view-height {
   // min-width: 100%;
   width: auto;
   overflow-x: hidden;
+  animation: fadein 3.5s;
 }
 
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:0.7;
+    }
+}
 
 div.main-top-section {
   position: relative;
