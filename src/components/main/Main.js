@@ -55,7 +55,7 @@ const Main = ({scrollTo}) => {
       </div>
 
       <Element name="main" className="element" >
-        <h1 className="heading">Main Section</h1>
+        <h1 className="heading" id="main-section">Main Section</h1>
       </Element>
 
       <div className="container-fluid main-bottom-section">
@@ -68,7 +68,6 @@ const Main = ({scrollTo}) => {
       </div>
 
 
-      {/* <a onClick={scrollTo}>To the top!</a> */}
     </Row>
   );
 };

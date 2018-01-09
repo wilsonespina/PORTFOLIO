@@ -8,6 +8,9 @@ require('react-bootstrap/lib/NavbarCollapse');
 import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const NavBar = ({ handleClick }) => {
+
+// if (history.location.pathname === '/Project1'||'/Project2'||'/Project3'||'/Project4') return null;
+
   return(
     <Navbar fixedTop fluid className="navBar">
       <Navbar.Header className="navbar-header">

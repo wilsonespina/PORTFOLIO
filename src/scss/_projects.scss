@@ -3,12 +3,12 @@ div.projects-section{
   background-color: $main-black;
 }
 
-
 // ************* tile styling ****************
 
 img.project-img {
   width: 100%;
   height: auto;
+  margin-top: 15px;
 }
 
 div.project-image-left {
@@ -16,9 +16,9 @@ div.project-image-left {
   height: 100%;
 }
 
-div.project-4 {
-  background-color: white;
-}
+// div.project-4 {
+//   background-color: white;
+// }
 
 div.project-tile {
   background-color: $main-black;
