@@ -4,13 +4,6 @@ import SideNav from 'react-simple-sidenav';
 
 const Sidebar = ({showNav}) => {
 
-  // const imageStyling = {
-  //   height: 200,
-  //   width: 'auto',
-  //   borderRadius: 150,
-  //   marginLeft: 50
-  // };
-
   return(
     <SideNav
       showNav        =  {showNav}
@@ -24,10 +17,10 @@ const Sidebar = ({showNav}) => {
         // minWidth: 500
       }}
       items={[
-        <div key={1}><i className="fa fa-linkedin-square" aria-hidden="true"></i><a href="https://www.linkedin.com/in/wilson-espina" target="blank" className="sidebar-link"> LinkedIn</a></div>,
-        <div key={2}><i className="fa fa-github" aria-hidden="true"></i><a href="https://github.com/wilsonespina" target="blank" className="sidebar-link"> GitHub</a></div>,
-        <div key={3}><i className="fa fa-twitter-square" aria-hidden="true"></i><a href="https://twitter.com/Wilson_Espina" target="blank" className="sidebar-link"> Twitter</a></div>,
-        <div key={4}><img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/portfolio/generalassembly_icon.png" className="ga-icon" /><a href="#" target="blank" className="sidebar-link"> GA Profile</a></div>,
+        <a key={1} href="https://www.linkedin.com/in/wilson-espina" target="blank" className="sidebar-link"><div><i className="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</div></a>,
+        <a key={2} href="https://github.com/wilsonespina" target="blank" className="sidebar-link"><div ><i className="fa fa-github" aria-hidden="true"></i> GitHub</div></a>,
+        <a key={3} href="https://twitter.com/Wilson_Espina" target="blank" className="sidebar-link"><div ><i className="fa fa-twitter-square" aria-hidden="true"></i> Twitter</div></a>
+        // <a key={4} href="#" target="blank" className="sidebar-link"><div><img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/portfolio/generalassembly_icon.png" className="ga-icon" /> GA Profile</div></a>
       ]} />
   );
 };

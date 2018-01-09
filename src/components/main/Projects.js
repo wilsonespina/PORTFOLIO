@@ -5,17 +5,19 @@ import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy,
 
 const Projects = ({scrollTo}) => {
 
+  const backgroundImage = '../../assets/screenshot_landing.jpg'
+
   return(
     <Row className="projects-section section container-fluid">
 
-      <Element name="projects" className="element" >
+      <Element name="project-4" className="element" >
         <h1 className="heading">Projects</h1>
       </Element>
 
       <Row className="project-4">
         <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
           <Col xs={12} sm={6} md={6} lg={6} className="project-image-left">
-            <img src={'../../assets/screenshot_landing.jpg'|| 'https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_landing.jpg' } alt="image01" className="project-img responsive-img"/>
+            <img src={backgroundImage || 'https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_landing.jpg' } alt="image01" className="project-img responsive-img"/>
 
           </Col>
 
@@ -29,6 +31,9 @@ const Projects = ({scrollTo}) => {
           </Col>
         </Col>
       </Row>
+
+      <Element name="project-3" className="element" >
+      </Element>
 
       <Row className="project-3">
         <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
@@ -47,6 +52,8 @@ const Projects = ({scrollTo}) => {
         </Col>
       </Row>
 
+      <Element name="project-2" className="element" >
+      </Element>
       <Row className="project-2">
         <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
           <Col xs={12} sm={6} md={6} lg={6} className="project-image-left">
@@ -68,6 +75,8 @@ const Projects = ({scrollTo}) => {
         </Col>
       </Row>
 
+      <Element name="project-1" className="element" >
+      </Element>
       <Row className="project-1">
         <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
           <Col xs={12} sm={6} md={6} lg={6} className="project-image-left">

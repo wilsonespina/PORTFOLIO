@@ -16,12 +16,12 @@ document.addEventListener('DOMContentLoaded',function(event){
       // wait for a while and call this function again for next character
       setTimeout(function() {
         typeWriter(text, i + 1, fnCallback);
-      }, 100);
+      }, 80);
 
     // text finished, call callback if there is a callback function
     } else if (typeof fnCallback === 'function') {
       // call callback after timeout
-      setTimeout(fnCallback, 3000);
+      setTimeout(fnCallback, 2000);
     }
   }
   // start a typewriter animation for a text in the dataText array
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded',function(event){
     if (typeof dataText[i] === 'undefined'){
       setTimeout(function() {
         StartTextAnimation(0);
-      }, 3000);
+      }, 2000);
 
     // check if dataText[i] exists
     } else if (i < dataText[i].length) {
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded',function(event){
       });
     }
   }
-  StartTextAnimation(0);
+  StartTextAnimation(200);
 });
 
 const Main = ({scrollTo}) => {
@@ -51,7 +51,7 @@ const Main = ({scrollTo}) => {
 
       <div className="main-top-section">
         <img className="main-head-img view-height" src={'../../assets/tube_wallpaper.jpg' || 'https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/portfolio/tube_wallpaper.jpg'} />
-        <h1 className="animation-header">WELCOME</h1>
+        <h1 className="animation-header"> </h1>
       </div>
 
       <Element name="main" className="element" >

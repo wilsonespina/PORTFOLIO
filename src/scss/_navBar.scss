@@ -162,6 +162,16 @@ div.navbar-header {
   font-size: 14px;
 }
 
+a.dropdown-link {
+  padding: 5px 0;
+  display: block;
+  text-align: center;
+  &:hover {
+    text-decoration: none;
+    background-color: #EBEBEC;
+  }
+}
+
 
 //********colour bar**********
 // div.colour-bar-nav {
