@@ -11,16 +11,19 @@ const NavBar = ({ handleClick }) => {
   return(
     <Navbar fixedTop fluid className="navBar">
       <Navbar.Header className="navbar-header">
-        {/* <br/> */}
         <i className="fa fa-bars" aria-hidden="true" onClick={handleClick} id="menu-icon"></i>
         <Navbar.Toggle />
       </Navbar.Header>
 
-      <Nav className="center-logo">
+      {/* <div className="center-logo">
         <li>
           <Link activeClass="active" className="main-logo" to="main" spy={true} smooth={true} duration={500} offset={-60}>wilson||espina</Link>
         </li>
-      </Nav>
+      </div> */}
+
+      {/* <div className="center-logo-we">
+        <img src="../../assets/WE_Logo_Black.png" alt="logo" className="we-logo"/>
+      </div> */}
 
 
       <Navbar.Collapse className="full-navbar">
@@ -45,40 +48,6 @@ const NavBar = ({ handleClick }) => {
       <div className="spacer-halfblack"></div>
 
     </Navbar>
-
-    /* <nav className="navbar navBar navbar-static-top navbar-fixed-top">
-      <div className="container-fluid full-navbar">
-        <div className="navbar-header">
-
-          <i className="fa fa-bars" aria-hidden="true" onClick={handleClick} id="menu-icon"></i>
-
-          <Link activeClass="active" className="navbar-brand main-logo" to="main" spy={true} smooth={true} duration={500} offset={-50}>wilson||espina</Link>
-
-        </div>
-
-        <div className="collapse navbar-collapse full-navbar">
-          <ul className="nav navbar-nav pull-right">
-            <li><Link activeClass="active" className="section-link" to="about" spy={true} smooth={true} duration={500} offset={-50} >about</Link></li>
-            <li><Link activeClass="active" className="section-link" to="projects" spy={true} smooth={true} duration={500} offset={-50} >projects</Link></li>
-            <li><Link activeClass="active" className="section-link" to="contact" spy={true} smooth={true} duration={500} offset={-50} >contact</Link></li>
-          </ul>
-        </div>
-
-        <div className="spacer-black"></div>
-        <div className="spacer-halfblack"></div>
-        <div className="spacer-nav spacer-yellow"></div>
-        <div className="spacer-nav spacer-green"></div>
-        <div className="spacer-nav spacer-blue"></div>
-        <div className="spacer-nav spacer-pink"></div>
-        <div className="spacer-nav spacer-yellow"></div>
-        <div className="spacer-nav spacer-green"></div>
-        <div className="spacer-nav spacer-blue"></div>
-        <div className="spacer-nav spacer-pink"></div>
-        <div className="spacer-halfblack"></div>
-
-
-      </div>
-    </nav> */
 
   );
 };
