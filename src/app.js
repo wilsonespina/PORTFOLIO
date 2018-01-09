@@ -6,12 +6,14 @@ import { Row } from 'react-bootstrap';
 import NavBar from './components/utility/NavBar';
 import Main from './components/main/Main';
 import Projects from './components/main/Projects';
+import Body from './components/main/Body';
 import About from './components/utility/About';
 import Contact from './components/utility/Contact';
 import Sidebar from './components/utility/Sidebar';
 import Footerbar from './components/utility/Footerbar';
+import Routes from './components/utility/Routes';
 
-import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 import 'font-awesome/css/font-awesome.css';
 import 'react-router-bootstrap';
@@ -59,22 +61,18 @@ class App extends React.Component {
             scrollTo={this.scrollTo}
             showNav={this.state.showNav}
             handleClick={this.handleClick}/>
-
           <Sidebar
             showNav={this.state.showNav} />
-
-          <Main
+          {/* <Body
             scrollToTop={this.scrollToTop}
-            scrollTo={this.scrollTo} />
-          <About
+            scrollTo={this.scrollTo}
+            showNav={this.state.showNav}
+            handleClick={this.handleClick} /> */}
+          <Routes
             scrollToTop={this.scrollToTop}
-            scrollTo={this.scrollTo} />
-          <Projects
-            scrollToTop={this.scrollToTop}
-            scrollTo={this.scrollTo} />
-          <Contact
-            scrollToTop={this.scrollToTop}
-            scrollTo={this.scrollTo} />
+            scrollTo={this.scrollTo}
+            showNav={this.state.showNav}
+            handleClick={this.handleClick} />
           <Footerbar />
         </Row>
       </Router>

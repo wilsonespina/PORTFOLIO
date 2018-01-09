@@ -22,7 +22,7 @@ const Projects = ({scrollTo}) => {
           <Col xs={12} sm={6} md={6} lg={6} className="project-text-right">
             <h1 className="span-white"><span className="span-blue">Project 4</span><span className="span-pink"> - </span><span className="span-yellow text-small">'TRACE'</span></h1>
 
-            <h2 className="span-green">MERN stack application</h2>
+            <a href="/Project4"><h2 className="span-green">MERN stack application</h2></a>
             <p className="span-white">Project at GA</p>
             <p className="span-white">My final project at General Assembly was to create a full MERN stack application with an open scope to create a RESTful site within a week. The website ended up being a social exercising platform which encourages people to compete and upload the best running traces they’ve saved on the social exercise app, Strava. I combined map data received from the Strava API and with the Google Maps API to give a visual representation of run activities.The website included the ability to rate and comment on submitted runs. This project was a brilliant opportunity  to incorporate smaller features learnt through the course, such as having searching and filtering functionality on the main index page.</p>
           </Col>
@@ -38,7 +38,7 @@ const Projects = ({scrollTo}) => {
           <Col xs={12} sm={6} md={6} lg={6} className="project-text-right">
             <h1 className="span-white"><span className="span-blue">Project 3</span><span className="span-pink"> - </span><span className="span-yellow text-small">'Gigly'</span></h1>
 
-            <h2 className="span-green">Group Project</h2>
+            <a href="/Project3"><h2 className="span-green">Group Project</h2></a>
             <p className="span-white">Project at GA</p>
             <p className="span-white">In my third project, I worked in a four person group project where our product was a social music event app designed for people to create groups attending upcoming gigs. Our application used a MEAN stack and combined three external API’s, pulling event information from Ticketmaster, playing relevant songs from Spotify and displaying the location for each event using Google Maps. This was my first opportunity to working in team environment and it highlighted the importance of using project management tools such as Trello to keep the team aligned and informed of agile sprints. Features within the app were shared between the team and I was responsible for implementing and running the back end testing using Mocha and Chai. I also built the comments functionality and styled the section using a combination of Bulma and SASS.</p>
           </Col>
