@@ -4,11 +4,6 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { Row } from 'react-bootstrap';
 
 import NavBar from './components/utility/NavBar';
-import Main from './components/main/Main';
-import Projects from './components/main/Projects';
-import Body from './components/main/Body';
-import About from './components/utility/About';
-import Contact from './components/utility/Contact';
 import Sidebar from './components/utility/Sidebar';
 import Footerbar from './components/utility/Footerbar';
 import Routes from './components/utility/Routes';
@@ -20,9 +15,6 @@ import 'react-router-bootstrap';
 import 'bootstrap-css-only';
 import './scss/style.scss';
 
-const durationFn = function(deltaTop) {
-  return deltaTop;
-};
 
 class App extends React.Component {
 
@@ -37,12 +29,7 @@ class App extends React.Component {
   }
 
   scrollTo() {
-    scroller.scrollTo('main', {
-      duration: 600,
-      delay: 0,
-      smooth: 'easeInOutQuart',
-      offset: -50
-    });
+    scroll.scrollTo(100);
   }
 
   handleClick = (e) => {
@@ -60,14 +47,9 @@ class App extends React.Component {
             scrollToTop={this.scrollToTop}
             scrollTo={this.scrollTo}
             showNav={this.state.showNav}
-            handleClick={this.handleClick}/>
+            handleClick={this.handleClick} />
           <Sidebar
             showNav={this.state.showNav} />
-          {/* <Body
-            scrollToTop={this.scrollToTop}
-            scrollTo={this.scrollTo}
-            showNav={this.state.showNav}
-            handleClick={this.handleClick} /> */}
           <Routes
             scrollToTop={this.scrollToTop}
             scrollTo={this.scrollTo}

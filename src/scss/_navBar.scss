@@ -166,17 +166,13 @@ a.dropdown-link {
   padding: 5px 0;
   display: block;
   text-align: center;
-  &:hover {
+  &:hover{
     text-decoration: none;
     background-color: #EBEBEC;
   }
 }
 
-
 //********colour bar**********
-// div.colour-bar-nav {
-//   min-width: 300px !important;
-// }
 div.spacer-nav {
   float: left;
   height: 10px;
@@ -206,4 +202,8 @@ div.spacer-blue {
 }
 div.spacer-pink {
   background-color: #F92672;
+}
+
+.active {
+  background-color: #EBEBEC;
 }

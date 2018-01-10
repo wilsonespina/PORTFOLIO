@@ -8,17 +8,19 @@ const About = () => {
   return(
     <Row className="about-section section container-fluid">
       <Element name="about" className="element" >
+
+
+        <div className="container-fluid">
+          <img src='../../assets/HEADSHOT.png' alt="profile-img" className="profile-pic responsive-img"/>
+
+          <h1 className="span-blue">Wilson Espina</h1>
+
+          <h3 className="span-pink"><span className="medium-font">Welcome</span> to my <span className="large-font"><em>Portfolio....</em></span></h3>
+          <h3 className="span-green">Web Developer</h3>
+          <h3 className="span-white">(ex)Breakdancer</h3>
+        </div>
+
       </Element>
-
-      <div className="container-fluid">
-        <img src='../../assets/HEADSHOT.png' alt="profile-img" className="profile-pic responsive-img"/>
-
-        <h1 className="span-blue">Wilson Espina</h1>
-        <h3 className="span-pink"><span className="medium-font">Welcome</span> to my <span className="large-font"><em>Portfolio....</em></span></h3>
-        <h3 className="span-green">Web Developer</h3>
-        <h3 className="span-white">(ex)Breakdancer</h3>
-      </div>
-
     </Row>
   );
 };

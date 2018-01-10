@@ -33,7 +33,7 @@ const NavBar = ({ handleClick }) => {
         <ul className="nav navbar-nav pull-right">
           <li><Link activeClass="active" className="section-link" to="about" spy={true} smooth={true} duration={500} offset={-60} >about</Link></li>
 
-          <NavDropdown eventKey={1} title="projects" id="basic-nav-dropdown">
+          <NavDropdown eventKey={1} title="projects" id="basic-nav-dropdown" activeClass="active">
             <Link activeClass="active" className="section-link dropdown-link" to="project-4" spy={true} smooth={true} duration={500} offset={-60} >project 4</Link>
             <Link activeClass="active" className="section-link dropdown-link" to="project-3" spy={true} smooth={true} duration={500} offset={-60} >project 3</Link>
             <Link activeClass="active" className="section-link dropdown-link" to="project-2" spy={true} smooth={true} duration={500} offset={-60} >project 2</Link>

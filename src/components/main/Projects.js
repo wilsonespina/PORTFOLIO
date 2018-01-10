@@ -9,27 +9,26 @@ const Projects = ({scrollTo}) => {
 
   return(
     <Row className="projects-section section container-fluid">
-
-      <Element name="project-4" className="element" >
-        <h1 className="heading">Projects</h1>
-      </Element>
+      {/* <h1 className="heading">Projects</h1> */}
 
       <Row className="project-4">
-        <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
-          <Col xs={12} sm={6} md={6} lg={6} className="project-image-left">
-            <img src={backgroundImage || 'https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_landing.jpg' } alt="image01" className="project-img responsive-img"/>
+        <Element name="project-4" className="element" id="project-4">
+          <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
+            <Col xs={12} sm={6} md={6} lg={6} className="project-image-left">
+              <img src={backgroundImage || 'https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_landing.jpg' } alt="image01" className="project-img responsive-img"/>
 
-          </Col>
+            </Col>
 
-          <Col xs={12} sm={6} md={6} lg={6} className="project-text-right">
-            <h1 className="span-white"><span className="span-blue">Project 4</span><span className="span-pink"> - </span><span className="span-yellow text-small">'TRACE'</span></h1>
+            <Col xs={12} sm={6} md={6} lg={6} className="project-text-right">
+              <h1 className="span-white"><span className="span-blue">Project 4</span><span className="span-pink"> - </span><span className="span-yellow text-small">'TRACE'</span></h1>
 
               <h2 className="span-green">MERN stack application</h2>
-            <p className="span-white">My final project at General Assembly was to create a full MERN stack application with an open scope to create a RESTful site within a week. The website ended up being a social exercising platform which encourages people to compete and upload the best running traces they’ve saved on the social exercise app, Strava. I combined map data received from the Strava API and with the Google Maps API to give a visual representation of run activities.The website included the ability to rate and comment on submitted runs. This project was a brilliant opportunity  to incorporate smaller features learnt through the course, such as having searching and filtering functionality on the main index page.</p>
+              <p className="span-white">My final project at General Assembly was to create a full MERN stack application with an open scope to create a RESTful site within a week. The website ended up being a social exercising platform which encourages people to compete and upload the best running traces they’ve saved on the social exercise app, Strava. I combined map data received from the Strava API and with the Google Maps API to give a visual representation of run activities.The website included the ability to rate and comment on submitted runs. This project was a brilliant opportunity  to incorporate smaller features learnt through the course, such as having searching and filtering functionality on the main index page.</p>
 
-            <a href="/Project4" className="btn btn-success">More info</a>
+              <a href="/Project4" className="btn btn-success">More info</a>
+            </Col>
           </Col>
-        </Col>
+        </Element>
       </Row>
 
       <Element name="project-3" className="element" >

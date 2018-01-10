@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
 
 const Project2 = () => {
@@ -7,7 +7,7 @@ const Project2 = () => {
   return(
     <Row className="project-individual-section container-fluid">
       <h1 className="span-pink">Project 2</h1>
-      <a href="/">back</a>
+      <Link to="/">back</Link>
 
       <p className="span-white">For my second major project at GA, I created my first fully RESTful application with backend authentication using Express.js Sessions. This project was my first opportunity to get to grips with an application that demonstrated the create, read update, delete (CRUD) functionality found in most websites.</p>
 

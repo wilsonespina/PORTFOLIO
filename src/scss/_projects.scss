@@ -16,12 +16,12 @@ div.project-image-left {
   height: 100%;
 }
 
-// div.project-4 {
-//   background-color: white;
-// }
+div.project-4 {
+  background-color: $main-black;
+}
 
 div.project-tile {
-  background-color: $main-black;
+  background-color: $sidebar-black;
   padding: 10px 0;
 }
 
