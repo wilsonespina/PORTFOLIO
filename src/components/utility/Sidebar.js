@@ -7,7 +7,7 @@ const Sidebar = ({showNav}) => {
   return(
     <SideNav
       showNav        =  {showNav}
-      title          =  "Contact me..."
+      title          =  "Find me on..."
       titleStyle     =  {{backgroundColor: '#111314'}}
       itemStyle      =  {{backgroundColor: '#111314'}}
       itemHoverStyle =  {{backgroundColor: '#5CD0EF'}}

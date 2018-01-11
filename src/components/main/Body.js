@@ -5,6 +5,7 @@ import { Row } from 'react-bootstrap';
 import Main from './Main';
 import About from '../utility/About';
 import Projects from './Projects';
+import Skills from './Skills';
 import Contact from '../utility/Contact';
 
 const Body = () => {
@@ -13,6 +14,7 @@ const Body = () => {
     <Row className="container-fluid">
       <Main />
       <About />
+      <Skills />
       <Projects />
       <Contact />
     </Row>
