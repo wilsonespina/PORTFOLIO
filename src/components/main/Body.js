@@ -7,22 +7,14 @@ import About from '../utility/About';
 import Projects from './Projects';
 import Contact from '../utility/Contact';
 
-const Body = ({scrollToTop, scrollTo}) => {
+const Body = () => {
 
   return(
     <Row className="container-fluid">
-      <Main
-        scrollToTop={scrollToTop}
-        scrollTo={scrollTo} />
-      <About
-        scrollToTop={scrollToTop}
-        scrollTo={scrollTo} />
-      <Projects
-        scrollToTop={scrollToTop}
-        scrollTo={scrollTo} />
-      <Contact
-        scrollToTop={scrollToTop}
-        scrollTo={scrollTo} />
+      <Main />
+      <About />
+      <Projects />
+      <Contact />
     </Row>
   );
 };

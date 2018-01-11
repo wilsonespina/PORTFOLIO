@@ -1,12 +1,12 @@
 // SMARTPHONES PORTRAIT
 @media only screen and (min-width: 300px) {
   .navBar {
-    text-align: center;
     background-color: white !important;
     min-height: 50px;
     img {
       width: 25%;
       min-width: 200px;
+      max-height: 100%;
     }
     li {
       float: none;
@@ -41,7 +41,6 @@
 // SMARTPHONES LANDSCAPE
 @media only screen and (min-width: 480px) {
   .navBar {
-    text-align: center;
     background-color: white !important;
     min-height: 50px;
     li {
@@ -73,7 +72,6 @@
 // TABLETS  PORTRAIT
 @media only screen and (min-width: 768px) {
   .navBar {
-    text-align: center;
     background-color: white !important;
     height: 50px;
     li {
@@ -85,13 +83,6 @@
       padding-right: 0px;
       padding-left: 0px;
     }
-
-    // li{
-    //   &:hover {
-    //     background-color: #EBEBEC;
-    //   }
-    //   padding-right: 0px;
-    // }
     a {
       color: #151718;
       &:hover {
@@ -112,7 +103,7 @@
 // TABLET LANDSCAPE / DESKTOP
 @media only screen and (min-width: 1024px) {
   .navBar {
-    text-align: center;
+    // text-align: center;
     background-color: white !important;
     height: 50px;
     li {
@@ -152,7 +143,13 @@ div.full-navbar {
 
 }
 div.center-logo-we {
-  // display: inline-block !important;
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  width: 50%;
+  background-color: pink;
+  margin-left: auto;
+  margin-right: auto;
 }
 div.navbar-header {
   margin-left: 10px !important;
@@ -206,4 +203,23 @@ div.spacer-pink {
 
 .active {
   background-color: #EBEBEC;
+  border-bottom: 3px solid #C5631B;
+  margin-bottom: -3px;
+}
+
+img.we-logo {
+  animation: fadeinlogo 3.5s;
+}
+
+@keyframes fadeinlogo {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+#menu-icon {
+  z-index: 100;
 }

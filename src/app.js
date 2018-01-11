@@ -50,11 +50,7 @@ class App extends React.Component {
             handleClick={this.handleClick} />
           <Sidebar
             showNav={this.state.showNav} />
-          <Routes
-            scrollToTop={this.scrollToTop}
-            scrollTo={this.scrollTo}
-            showNav={this.state.showNav}
-            handleClick={this.handleClick} />
+          <Routes />
           <Footerbar />
         </Row>
       </Router>

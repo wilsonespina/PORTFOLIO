@@ -6,8 +6,8 @@ import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy,
 const About = () => {
 
   return(
-    <Row className="about-section section container-fluid">
-      <Element name="about" className="element" >
+    <Element name="about" className="element" >
+      <Row className="about-section section container-fluid">
 
 
         <div className="container-fluid">
@@ -20,8 +20,12 @@ const About = () => {
           <h3 className="span-white">(ex)Breakdancer</h3>
         </div>
 
-      </Element>
-    </Row>
+        <div className="skills-section">
+          
+        </div>
+
+      </Row>
+    </Element>
   );
 };
 

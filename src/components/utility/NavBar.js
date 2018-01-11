@@ -14,8 +14,8 @@ const NavBar = ({ handleClick }) => {
   return(
     <Navbar fixedTop fluid className="navBar">
       <Navbar.Header className="navbar-header">
-        <i className="fa fa-bars" aria-hidden="true" onClick={handleClick} id="menu-icon"></i>
         <Navbar.Toggle />
+        <i className="fa fa-bars" aria-hidden="true" onClick={handleClick} id="menu-icon"></i>
       </Navbar.Header>
 
       {/* <div className="center-logo">
@@ -24,22 +24,22 @@ const NavBar = ({ handleClick }) => {
         </li>
       </div> */}
 
-      {/* <div className="center-logo-we">
+      <div className="center-logo-we">
         <img src="../../assets/WE_Logo_Black.png" alt="logo" className="we-logo"/>
-      </div> */}
+      </div>
 
 
       <Navbar.Collapse className="full-navbar">
         <ul className="nav navbar-nav pull-right">
           <li><Link activeClass="active" className="section-link" to="about" spy={true} smooth={true} duration={500} offset={-60} >about</Link></li>
+          <li><Link activeClass="active" className="section-link" to="projects" spy={true} smooth={true} duration={500} offset={-60} >projects</Link></li>
 
-          <NavDropdown eventKey={1} title="projects" id="basic-nav-dropdown" activeClass="active">
+          {/* <NavDropdown eventKey={1} title="projects" id="basic-nav-dropdown">
             <Link activeClass="active" className="section-link dropdown-link" to="project-4" spy={true} smooth={true} duration={500} offset={-60} >project 4</Link>
             <Link activeClass="active" className="section-link dropdown-link" to="project-3" spy={true} smooth={true} duration={500} offset={-60} >project 3</Link>
             <Link activeClass="active" className="section-link dropdown-link" to="project-2" spy={true} smooth={true} duration={500} offset={-60} >project 2</Link>
             <Link activeClass="active" className="section-link dropdown-link" to="project-1" spy={true} smooth={true} duration={500} offset={-60} >project 1</Link>
-          </NavDropdown>
-
+          </NavDropdown> */}
 
           <li><Link activeClass="active" className="section-link" to="contact" spy={true} smooth={true} duration={500} offset={-60} >contact</Link></li>
         </ul>
