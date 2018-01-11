@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import { Row, Col, Carousel } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const Projects = ({scrollTo}) => {

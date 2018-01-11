@@ -1,6 +1,6 @@
 div.about-section{
-  min-height: 100vh;
   background-color: $main-black;
+  padding-bottom: 50px;
   img {
     height: auto;
     max-width: 35%;
@@ -8,3 +8,89 @@ div.about-section{
     float: right;
   }
 }
+
+div.skills-box, div.about-box {
+  text-align: center;
+  background-color: $sidebar-black;
+  padding: 20px 0;
+}
+
+div.skills-box {
+  margin-top: 50px;
+}
+
+div.about-box {
+  min-height: 90vh;
+  margin-top: 20px;
+}
+
+
+// SMARTPHONES PORTRAIT
+@media only screen and (min-width: 300px) {
+  div.skills-box {
+    i {
+      display: inline-block;
+      font-size: 60px;
+      color: $font-blue;
+      padding: 20px;
+      word-wrap: break-word;
+    }
+  }
+}
+
+// SMARTPHONES LANDSCAPE
+@media only screen and (min-width: 480px) {
+  div.skills-box {
+    i {
+      display: inline-block;
+      font-size: 60px;
+      color: $font-blue;
+      padding: 20px;
+      word-wrap: break-word;
+    }
+  }
+}
+
+// TABLETS  PORTRAIT
+@media only screen and (min-width: 768px) {
+  div.skills-box {
+    i {
+      display: inline-block;
+      font-size: 120px;
+      color: $font-blue;
+      padding: 30px;
+      word-wrap: break-word;
+    }
+  }
+}
+
+// TABLET LANDSCAPE / DESKTOP
+@media only screen and (min-width: 1024px) {
+  div.skills-box {
+    i {
+      display: inline-block;
+      font-size: 120px;
+      color: $font-blue;
+      padding: 30px;
+      word-wrap: break-word;
+    }
+  }
+}
+
+
+//
+// // SMARTPHONES PORTRAIT
+// @media only screen and (min-width: 300px) {
+// }
+//
+// // SMARTPHONES LANDSCAPE
+// @media only screen and (min-width: 480px) {
+// }
+//
+// // TABLETS  PORTRAIT
+// @media only screen and (min-width: 768px) {
+// }
+//
+// // TABLET LANDSCAPE / DESKTOP
+// @media only screen and (min-width: 1024px) {
+// }
