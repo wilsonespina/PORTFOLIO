@@ -3,7 +3,7 @@
   .navBar {
     background-color: white !important;
     min-height: 50px;
-    img {
+    img.we-logo {
       width: 25%;
       min-width: 200px;
       max-height: 100%;
@@ -43,6 +43,11 @@
   .navBar {
     background-color: white !important;
     min-height: 50px;
+    img.we-logo {
+      width: 25%;
+      min-width: 200px;
+      max-height: 100%;
+    }
     li {
       float: none;
       display: inline-block;
@@ -74,6 +79,11 @@
   .navBar {
     background-color: white !important;
     height: 50px;
+    img.we-logo {
+      width: 25%;
+      min-width: 200px;
+      max-height: 100%;
+    }
     li {
       float: none;
       display: inline-block;
@@ -106,6 +116,11 @@
     // text-align: center;
     background-color: white !important;
     height: 50px;
+    img.we-logo {
+      width: 25%;
+      min-width: 200px;
+      max-height: 100%;
+    }
     li {
       float: none;
       display: inline-block;
@@ -115,13 +130,6 @@
       padding-right: 0px;
       padding-left: 0px;
     }
-
-    // li{
-    //   &:hover {
-    //     background-color: #EBEBEC;
-    //   }
-    //   padding-right: 0px;
-    // }
     a {
       color: #151718;
       &:hover {
@@ -146,10 +154,8 @@ div.center-logo-we {
   position: absolute;
   text-align: center;
   height: 100%;
-  width: 50%;
-  background-color: pink;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  display: inline-block;
 }
 div.navbar-header {
   margin-left: 10px !important;

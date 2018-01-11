@@ -17,13 +17,7 @@ const NavBar = ({ handleClick }) => {
         <Navbar.Toggle />
         <i className="fa fa-bars" aria-hidden="true" onClick={handleClick} id="menu-icon"></i>
       </Navbar.Header>
-
-      {/* <div className="center-logo">
-        <li>
-          <Link activeClass="active" className="main-logo" to="main" spy={true} smooth={true} duration={500} offset={-60}>wilson||espina</Link>
-        </li>
-      </div> */}
-
+      
       <div className="center-logo-we">
         <img src="../../assets/WE_Logo_Black.png" alt="logo" className="we-logo"/>
       </div>
