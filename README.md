@@ -1,3 +1,0 @@
-# PORTFOLIO SITE
-
-## Currently a work-in-progress....
