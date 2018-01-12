@@ -23,7 +23,7 @@ const Skills = () => {
               <i className="devicon-ruby-plain-wordmark"></i>
               <i className="devicon-rails-plain-wordmark"></i>
               <i className="devicon-mongodb-plain-wordmark"></i>
-              <i className="devicon-postgresql-plain"></i>
+              <i className="devicon-postgresql-plain-wordmark"></i>
               <i className="devicon-bower-line-wordmark"></i>
               <i className="devicon-gulp-plain"></i>
               <i className="devicon-webpack-plain-wordmark"></i>

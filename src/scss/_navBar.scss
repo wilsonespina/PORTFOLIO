@@ -2,7 +2,7 @@
 @media only screen and (min-width: 300px) {
   .navBar {
     background-color: white !important;
-    // min-height: 50px;
+    min-height: 50px;
     img.we-logo {
       width: 25%;
       min-width: 200px;
@@ -35,6 +35,9 @@
         cursor: pointer;
       }
     }
+    .navbar-header {
+      display: inline-block !important;
+    }
   }
 }
 
@@ -42,7 +45,7 @@
 @media only screen and (min-width: 480px) {
   .navBar {
     background-color: white !important;
-    // min-height: 50px;
+    min-height: 50px;
     img.we-logo {
       width: 25%;
       min-width: 200px;
@@ -70,6 +73,9 @@
     .fa {
       font-size: 35px;
       color: #151718;
+    }
+    .navbar-header {
+      display: inline-block !important;
     }
   }
 }
@@ -107,6 +113,9 @@
       font-size: 35px;
       color: #151718;
     }
+    .navbar-header {
+      display: inline-block !important;
+    }
   }
 }
 
@@ -143,6 +152,9 @@
     .fa {
       font-size: 35px;
       color: #151718;
+    }
+    .navbar-header {
+      display: inline-block !important;
     }
   }
 }

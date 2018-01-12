@@ -14,13 +14,14 @@ const NavBar = ({ handleClick }) => {
   return(
     <Navbar fixedTop fluid className="navBar">
       <Navbar.Header className="navbar-header">
-        <Navbar.Toggle />
         <i className="fa fa-bars" aria-hidden="true" onClick={handleClick} id="menu-icon"></i>
+
+        <div className="center-logo-we">
+          <Link activeClass="none" className="section-link" to="main" spy={true} smooth={true} duration={600} offset={-60} ><img src="../../assets/WE_Logo_Black.png" alt="logo" className="we-logo" /></Link>
+        </div>
       </Navbar.Header>
 
-      <div className="center-logo-we">
-        <Link activeClass="none" className="section-link" to="main" spy={true} smooth={true} duration={500} offset={-60} ><img src="../../assets/WE_Logo_Black.png" alt="logo" className="we-logo" /></Link>
-      </div>
+      <Navbar.Toggle />
 
 
       <Navbar.Collapse className="full-navbar">
