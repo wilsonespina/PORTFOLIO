@@ -5,4 +5,4 @@ const projectSchema = mongoose.Schema({
   url: { type: String }
 });
 
-module.exports = mongoose.model('Shape', projectSchema);
+module.exports = mongoose.model('Project', projectSchema);
