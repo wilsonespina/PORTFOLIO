@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, withRouter } from 'react-router-dom';
 
 import Body from '../main/Body';
 import Project1 from '../projects/Project1';
@@ -11,12 +11,12 @@ const Routes = () => {
   return (
     <Switch>
       <Route exact path="/" component={Body} />
-      <Route exact path="/Project4" component={Project4} />
-      <Route exact path="/Project3" component={Project3} />
-      <Route exact path="/Project2" component={Project2} />
-      <Route exact path="/Project1" component={Project1} />
+      <Route exact path="/project4" component={Project4} />
+      <Route exact path="/project3" component={Project3} />
+      <Route exact path="/project2" component={Project2} />
+      <Route exact path="/project1" component={Project1} />
     </Switch>
   );
 };
 
-export default Routes;
+export default withRouter(Routes);

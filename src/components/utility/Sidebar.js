@@ -14,7 +14,6 @@ const Sidebar = ({showNav}) => {
       navStyle       =  {{
         backgroundColor: '#111314',
         fontSize: '18px'
-        // minWidth: 500
       }}
       items={[
         <a key={1} href="https://www.linkedin.com/in/wilson-espina" target="blank" className="sidebar-link"><div><i className="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</div></a>,

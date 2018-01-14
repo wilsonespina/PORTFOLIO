@@ -1,24 +1,20 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
-import { Link } from 'react-scroll';
-
 require('react-bootstrap/lib/NavbarHeader');
 require('react-bootstrap/lib/NavbarToggle');
 require('react-bootstrap/lib/NavbarCollapse');
 
 
-const NavBar = ({ handleClick }) => {
 
-// if (history.location.pathname === '/Project1'||'/Project2'||'/Project3'||'/Project4') return null;
-
+const NavBarProjects = ({ handleClick }) => {
   return(
     <Navbar fixedTop fluid className="navBar">
       <Navbar.Header className="navbar-header">
         <i className="fa fa-bars" aria-hidden="true" onClick={handleClick} id="menu-icon"></i>
 
         <div className="center-logo-we">
-          <Link activeClass="none" className="section-link" to="main" spy={true} smooth={true} duration={600} offset={-60} ><img src="../../assets/WE_Logo_Black.png" alt="logo" className="we-logo" /></Link>
+          <Link to="/"><img src="../../assets/WE_Logo_Black.png" alt="logo" className="we-logo" /></Link>
         </div>
       </Navbar.Header>
 
@@ -27,10 +23,7 @@ const NavBar = ({ handleClick }) => {
 
       <Navbar.Collapse className="full-navbar">
         <ul className="nav navbar-nav pull-right">
-          <li><Link activeClass="active" className="section-link" to="about" spy={true} smooth={true} duration={500} offset={-60} >about</Link></li>
-          <li><Link activeClass="active" className="section-link" to="skills" spy={true} smooth={true} duration={500} offset={-60} >skills</Link></li>
-          <li><Link activeClass="active" className="section-link" to="projects" spy={true} smooth={true} duration={500} offset={-60} >projects</Link></li>
-          <li><Link activeClass="active" className="section-link" to="contact" spy={true} smooth={true} duration={500} offset={-60} >contact</Link></li>
+          <li><Link to="/">home</Link></li>
         </ul>
       </Navbar.Collapse>
 
@@ -52,4 +45,4 @@ const NavBar = ({ handleClick }) => {
   );
 };
 
-export default withRouter(NavBar);
+export default withRouter(NavBarProjects);
