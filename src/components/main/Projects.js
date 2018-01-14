@@ -1,7 +1,7 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Link} from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
-import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link as Go, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const Projects = ({scrollTo}) => {
 
@@ -25,7 +25,8 @@ const Projects = ({scrollTo}) => {
               <h2 className="span-green">MERN stack application</h2>
               <p className="span-white">My final project at General Assembly was to create a full MERN stack application with an open scope to create a RESTful site within a week. The website ended up being a social exercising platform which encourages people to compete and upload the best running traces they’ve saved on the social exercise app, Strava. I combined map data received from the Strava API and with the Google Maps API to give a visual representation of run activities.The website included the ability to rate and comment on submitted runs. This project was a brilliant opportunity  to incorporate smaller features learnt through the course, such as having searching and filtering functionality on the main index page.</p>
 
-              <a href="/Project4" className="btn btn-success">More info</a>
+              {/* <a href="/Project4" className="btn btn-success">More info</a> */}
+              <Link to="/project4">More info</Link>
             </Col>
           </Col>
         </Row>
@@ -42,7 +43,8 @@ const Projects = ({scrollTo}) => {
               <h2 className="span-green">Group Project</h2>
               <p className="span-white">In my third project, I worked in a four person group project where our product was a social music event app designed for people to create groups attending upcoming gigs. Our application used a MEAN stack and combined three external API’s, pulling event information from Ticketmaster, playing relevant songs from Spotify and displaying the location for each event using Google Maps. This was my first opportunity to working in team environment and it highlighted the importance of using project management tools such as Trello to keep the team aligned and informed of agile sprints. Features within the app were shared between the team and I was responsible for implementing and running the back end testing using Mocha and Chai. I also built the comments functionality and styled the section using a combination of Bulma and SASS.</p>
 
-              <a href="/Project3" className="btn btn-success">More info</a>
+              {/* <a href="/Project3" className="btn btn-success">More info</a> */}
+              <Link to="/project3">More info</Link>
             </Col>
           </Col>
         </Row>
@@ -63,7 +65,8 @@ const Projects = ({scrollTo}) => {
               <p className="span-white">During the course at GA, my coursemates and I often got food from a local food market near the campus. One particular Japanese Katsu wrap stall stood out and in tribute to that stall I chose to create site all about the best Katsu spot in London. The app uses embedded JavaScript (EJS) to render views in the browser and users can add, rate and comment on their favourite katsu curry places.
               </p>
 
-              <a href="/Project2" className="btn btn-success">More info</a>
+              {/* <a href="/Project2" className="btn btn-success">More info</a> */}
+              <Link to="/project2">More info</Link>
             </Col>
           </Col>
         </Row>
@@ -80,7 +83,8 @@ const Projects = ({scrollTo}) => {
               <h2 className="span-green">JavaScript Game</h2>
               <p className="span-white">My first project at GA was to build an interactive game using JavaScript and jQuery for DOM manipulation. This was my first opportunity to apply my early JS knowledge to a working app and to also apply CSS styling to my own product. The overall look and feel of the app was that of a retro 8-bit arcade game with a simple colour scheme and mocked-up game controllers in the user interface. The game itself consisted of a character that a user can move around a grid and push an object into the goal area. The JS game logic included collision detection between the character, object and game environment as well as random spawning of the goal object. I also incorporated music and sound files to add an extra dimension to the user experience.</p>
 
-              <a href="/Project1" className="btn btn-success">More info</a>
+              {/* <a href="/Project1" className="btn btn-success">More info</a> */}
+              <Link to="/project1">More info</Link>
             </Col>
           </Col>
         </Row>

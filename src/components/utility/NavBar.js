@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
-import { Link } from 'react-scroll';
+import { Link as Go } from 'react-scroll';
 
 require('react-bootstrap/lib/NavbarHeader');
 require('react-bootstrap/lib/NavbarToggle');
@@ -18,7 +18,7 @@ const NavBar = ({ handleClick }) => {
         <i className="fa fa-bars" aria-hidden="true" onClick={handleClick} id="menu-icon"></i>
 
         <div className="center-logo-we">
-          <Link activeClass="none" className="section-link" to="main" spy={true} smooth={true} duration={600} offset={-60} ><img src="../../assets/WE_Logo_Black.png" alt="logo" className="we-logo" /></Link>
+          <Go activeClass="none" className="section-link" to="main" spy={true} smooth={true} duration={600} offset={-60} ><img src="../../assets/WE_Logo_Black.png" alt="logo" className="we-logo" /></Go>
         </div>
       </Navbar.Header>
 
@@ -27,10 +27,10 @@ const NavBar = ({ handleClick }) => {
 
       <Navbar.Collapse className="full-navbar">
         <ul className="nav navbar-nav pull-right">
-          <li><Link activeClass="active" className="section-link" to="about" spy={true} smooth={true} duration={500} offset={-60} >about</Link></li>
-          <li><Link activeClass="active" className="section-link" to="skills" spy={true} smooth={true} duration={500} offset={-60} >skills</Link></li>
-          <li><Link activeClass="active" className="section-link" to="projects" spy={true} smooth={true} duration={500} offset={-60} >projects</Link></li>
-          <li><Link activeClass="active" className="section-link" to="contact" spy={true} smooth={true} duration={500} offset={-60} >contact</Link></li>
+          <li><Go activeClass="active" className="section-link" to="about" spy={true} smooth={true} duration={500} offset={-60} >about</Go></li>
+          <li><Go activeClass="active" className="section-link" to="skills" spy={true} smooth={true} duration={500} offset={-60} >skills</Go></li>
+          <li><Go activeClass="active" className="section-link" to="projects" spy={true} smooth={true} duration={500} offset={-60} >projects</Go></li>
+          <li><Go activeClass="active" className="section-link" to="contact" spy={true} smooth={true} duration={500} offset={-60} >contact</Go></li>
         </ul>
       </Navbar.Collapse>
 
