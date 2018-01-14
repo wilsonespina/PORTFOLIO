@@ -24,6 +24,12 @@ const NavBarProjects = ({ handleClick }) => {
       <Navbar.Collapse className="full-navbar">
         <ul className="nav navbar-nav pull-right">
           <li><Link to="/">home</Link></li>
+          <NavDropdown eventKey={1} title="projects" id="basic-nav-dropdown">
+            <MenuItem eventKey={1.2} href="/project1">project 1</MenuItem>
+            <MenuItem eventKey={1.3} href="/project2">project 2</MenuItem>
+            <MenuItem eventKey={1.4} href="/project3">project 3</MenuItem>
+            <MenuItem eventKey={1.5} href="/project4">project 4</MenuItem>
+          </NavDropdown>
         </ul>
       </Navbar.Collapse>
 
