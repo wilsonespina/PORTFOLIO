@@ -2,10 +2,10 @@ import React from 'react';
 import { Route, Switch, withRouter } from 'react-router-dom';
 
 import Body from '../main/Body';
-import Project1 from '../projects/Project1';
-import Project2 from '../projects/Project2';
-import Project3 from '../projects/Project3';
-import Project4 from '../projects/Project4';
+import Project1 from '../projects/project1';
+import Project2 from '../projects/project2';
+import Project3 from '../projects/project3';
+import Project4 from '../projects/project4';
 
 const Routes = () => {
   return (
