@@ -9,14 +9,14 @@ const Projects = ({scrollTo}) => {
 
   return(
     <Row className="projects-section section container-fluid">
-      {/* <h1 className="heading">Projects</h1> */}
       <Element name="project-4" className="element" id="projects">
-
         <Row className="project-4">
           <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
+            <div className="projects-heading-top center-text">
+              <h3 className="span-pink"><span className="large-font">Projects...</span></h3>
+            </div>
             <Col xs={12} sm={6} md={6} lg={6} className="project-image-left">
               <img src={backgroundImage || 'https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_landing.jpg' } alt="image01" className="project-img responsive-img"/>
-
             </Col>
 
             <Col xs={12} sm={6} md={6} lg={6} className="project-text-right">

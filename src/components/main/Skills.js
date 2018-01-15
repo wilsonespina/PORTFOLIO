@@ -6,7 +6,7 @@ import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy,
 const Skills = () => {
 
   return(
-    <Element name="skills" className="element" >
+    <Element name="skills" className="element">
       <Row className="skills-section section container-fluid">
         <Row className="skills-container">
           <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="skills-box">
