@@ -51,7 +51,7 @@ const Main = () => {
 
       <Element name="main" className="element" >
         <div className="main-top-section">
-          <img className="main-head-img view-height" src={'../../assets/tube_wallpaper.jpg' || 'https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/portfolio/tube_wallpaper.jpg'} />
+          <img className="main-head-img view-height" src={'../../assets/tube_compressed.jpg'} />
           <div className="typewriter">
             <h1 className="animation-header"> </h1>
           </div>
