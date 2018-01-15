@@ -38,6 +38,10 @@
     .navbar-header {
       display: inline-block !important;
     }
+    button {
+      margin-bottom: 0px;
+      margin-top: 2px;
+    }
   }
 }
 
@@ -76,6 +80,10 @@
     }
     .navbar-header {
       display: inline-block !important;
+    }
+    button {
+      margin-bottom: 0px;
+      margin-top: 2px;
     }
   }
 }
@@ -159,8 +167,9 @@
   }
 }
 
-div.full-navbar {
-
+div.bottom-full-spacer-nav {
+  // display: inline-block;
+  min-width: 100%;
 }
 div.center-logo-we {
   position: absolute;

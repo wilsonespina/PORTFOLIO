@@ -34,18 +34,21 @@ const NavBar = ({ handleClick }) => {
         </ul>
       </Navbar.Collapse>
 
-      <div className="spacer-halfblack"></div>
-      <div className="colour-bar-nav">
-        <div className="spacer-nav spacer-yellow"></div>
-        <div className="spacer-nav spacer-green"></div>
-        <div className="spacer-nav spacer-blue"></div>
-        <div className="spacer-nav spacer-pink"></div>
-        <div className="spacer-nav spacer-yellow"></div>
-        <div className="spacer-nav spacer-green"></div>
-        <div className="spacer-nav spacer-blue"></div>
-        <div className="spacer-nav spacer-pink"></div>
+      <div className="bottom-full-spacer-nav container-fluid">
+        <div className="spacer-halfblack"></div>
+        <div className="colour-bar-nav">
+          <div className="spacer-nav spacer-yellow"></div>
+          <div className="spacer-nav spacer-green"></div>
+          <div className="spacer-nav spacer-blue"></div>
+          <div className="spacer-nav spacer-pink"></div>
+          <div className="spacer-nav spacer-yellow"></div>
+          <div className="spacer-nav spacer-green"></div>
+          <div className="spacer-nav spacer-blue"></div>
+          <div className="spacer-nav spacer-pink"></div>
+        </div>
+        <div className="spacer-halfblack"></div>
       </div>
-      <div className="spacer-halfblack"></div>
+
 
     </Navbar>
 
