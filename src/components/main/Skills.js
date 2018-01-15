@@ -8,9 +8,9 @@ const Skills = () => {
   return(
     <Element name="skills" className="element" >
       <Row className="skills-section section container-fluid">
-        <Row className="about-container">
+        <Row className="skills-container">
           <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="skills-box">
-            <div className="skills-section">
+            <div className="container-fluid">
               <h3 className="span-pink"><span className="large-font">Development Skills...</span></h3>
 
               <i className="devicon-javascript-plain"></i>

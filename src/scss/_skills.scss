@@ -1,15 +1,12 @@
 div.skills-section {
-  background-color: $sidebar-black;
-  // background-color: white;
-  // padding-bottom: 50px;
+  background-color: $main-black;
 }
 
 div.skills-box {
   min-height: 90vh;
-  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
   background-color: $sidebar-black;
-  padding: 20px 0;
 }
 
 // SMARTPHONES PORTRAIT
@@ -45,7 +42,7 @@ div.skills-box {
       display: inline-block;
       font-size: 120px;
       color: $font-blue;
-      padding: 30px;
+      padding: 20px;
       word-wrap: break-word;
     }
   }
@@ -58,7 +55,7 @@ div.skills-box {
       display: inline-block;
       font-size: 120px;
       color: $font-blue;
-      padding: 30px;
+      padding: 20px;
       word-wrap: break-word;
     }
   }

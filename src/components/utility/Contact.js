@@ -10,19 +10,19 @@ const Contact = ({scrollTo}) => {
       <Element name="contact" className="element" >
         <h1>Contact Section</h1>
 
-        <h2>Email</h2>
+        <form action="mailto:wilson.espina@gmail.com" method="POST">
 
-        <form method="POST">
-          <label htmlFor="name">Name</label>
-          <input type="text" name="name" />
+          <label name="name">Name:</label><br/>
+          <input type="text" name="name" /><br/>
 
-          <label htmlFor="email">Email</label>
-          <input type="email" name="email" />
+          <label name="email">Email:</label><br/>
+          <input type="text" name="email" /><br/>
 
-          <label htmlFor="message">Message</label>
-          <textarea name="message" rows="4"></textarea>
+          <label name="name">Comment:</label><br/>
+          <input type="text" name="comment" size="50" /><br/>
 
-          <Button type="submit" bsStyle="success">SUBMIT</Button>
+          <input type="submit" value="Send" />
+          <input type="reset" value="Reset" />
         </form>
 
 
