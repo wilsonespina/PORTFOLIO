@@ -23,6 +23,7 @@
     "mongoose": "^4.13.9",
     "mongoose-unique-validator": "^1.0.6",
     "morgan": "^1.8.2",
+    "newrelic": "^2.6.0",
     "prop-types": "^15.6.0",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.5",
