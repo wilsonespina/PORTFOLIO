@@ -8,7 +8,7 @@ const Contact = ({scrollTo}) => {
   return(
     <Row className="contact-section section container-fluid">
       <Element name="contact" className="element" >
-        <h1>Contact Section</h1>
+        <h3 className="span-pink"><span className="large-font">Contact...</span></h3>
 
         <form action="mailto:wilson.espina@gmail.com" method="POST">
 
