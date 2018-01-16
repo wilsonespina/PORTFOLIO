@@ -51,7 +51,9 @@ h1.heading {
 }
 
 //*******font styling*******
-
+.small-font {
+  font-size: 18px;
+}
 .large-font {
   font-size: 160%;
 }
@@ -71,4 +73,7 @@ h1.heading {
 }
 .margin-bottom-20 {
   margin-bottom: 20px;
+}
+.margin-top-20 {
+  margin-top: 20px;
 }

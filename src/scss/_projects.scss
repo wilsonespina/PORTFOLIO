@@ -6,16 +6,6 @@ div.projects-section{
 
 // ************* tile styling ****************
 
-img.project-img {
-  width: 100%;
-  height: auto;
-  margin-top: 15px;
-}
-
-div.project-image-left {
-  overflow: hidden;
-  height: 100%;
-}
 
 div.project-4 {
   background-color: $main-black;
@@ -23,7 +13,57 @@ div.project-4 {
 
 div.project-tile {
   background-color: $sidebar-black;
-  padding: 10px 0;
+  padding: 10px 0 20px 0;
+  margin-bottom: 10px;
+  div.projects-icons-box {
+    text-align: center;
+    i {
+      font-size: 45px;
+      padding: 2px;
+      word-wrap: break-word;
+    }
+  }
+}
+//**********image styling*********
+
+img.project-img {
+  width: 100%;
+  // max-width: 300px;
+  margin-top: 15px;
+  opacity: 1;
+  // display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+div.project-image-left {
+  overflow: hidden;
+  height: 100%;
+}
+
+.img-middle-layer {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+div.img-container:hover .project-img {
+  opacity: 0.3;
+}
+div.img-container:hover .img-middle-layer {
+  opacity: 1;
+}
+div.img-text-layer {
+  background-color: $font-pink;
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
 }
 
 //*********text styling**********
@@ -31,14 +71,3 @@ div.project-tile {
 .text-small {
   font-size: 26px;
 }
-
-
-
-// *********images********
-//<img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/AdobeXD_screenshot_05_12_17.jpg" alt="image02" className="project-img"/>
-//<img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/Trello_Screenshot_06_12_17.jpg" alt="image03" className="project-img"/>
-//<img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/initial_sketch1.jpg" alt="image04" className="project-img"/>
-//<img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_combined.jpg" alt="image05" className="project-img"/>
-//<img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_comments_rating.jpg" alt="image06" className="project-img"/>
-//<img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_profile.png" alt="image07" className="project-img"/>
-//<img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_usersshow.png" alt="image08" className="project-img"/>

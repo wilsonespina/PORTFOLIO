@@ -5,7 +5,7 @@ import { Link as Go, DirectLink, Element , Events, animateScroll as scroll, scro
 
 const Projects = ({scrollTo}) => {
 
-  const backgroundImage = '../../assets/screenshot_landing.jpg'
+  const backgroundImage = '../../assets/screenshot_landing.jpg';
 
   return(
     <Row className="projects-section section container-fluid">
@@ -14,19 +14,44 @@ const Projects = ({scrollTo}) => {
           <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
             <div className="projects-heading-top center-text">
               <h3 className="span-pink"><span className="large-font">Projects...</span></h3>
+              <h3 className="span-green">Some of my past work</h3>
             </div>
-            <Col xs={12} sm={6} md={6} lg={6} className="project-image-left">
-              <img src={backgroundImage || 'https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/wdi-project-4/README/screenshot_landing.jpg' } alt="image01" className="project-img responsive-img"/>
+
+            <Col xs={12} sm={12} md={12} lg={6} className="project-image-left img-container">
+              <img src={backgroundImage} alt="image01" className="project-img"/>
+              <div className="img-middle-layer">
+                <Link to="/project4"><div className="img-text-layer">TRACE</div></Link>
+              </div>
             </Col>
 
-            <Col xs={12} sm={6} md={6} lg={6} className="project-text-right">
+            <Col xs={12} sm={10} md={10} lg={6} className="project-text-right">
               <h1 className="span-white"><span className="span-blue">Project 4</span><span className="span-pink"> - </span><span className="span-yellow text-small">'TRACE'</span></h1>
 
               <h2 className="span-green">MERN stack application</h2>
-              <p className="span-white">My final project at General Assembly was to create a full MERN stack application with an open scope to create a RESTful site within a week. The website ended up being a social exercising platform which encourages people to compete and upload the best running traces they’ve saved on the social exercise app, Strava. I combined map data received from the Strava API and with the Google Maps API to give a visual representation of run activities.The website included the ability to rate and comment on submitted runs. This project was a brilliant opportunity  to incorporate smaller features learnt through the course, such as having searching and filtering functionality on the main index page.</p>
 
-              {/* <a href="/Project4" className="btn btn-success">More info</a> */}
-              <Link to="/project4">More info</Link>
+              <p className="span-white small-font">I created a competitive <span className="medium-font">running app</span> that encourages users to compete and upload the best running traces they’ve saved on the exercise app, <span className="medium-font">Strava</span>.</p>
+
+              <p className="span-white small-font">The app uses the <span className="medium-font">Strava</span> and <span className="medium-font">Google Maps</span> APIs to help visualise the trace of real-life runs. People can the <span className="medium-font">comment</span> and <span className="medium-font">rate</span> runs cubmitted by the Trace community.</p>
+
+              <div className="projects-icons-box span-blue">
+                <i className="devicon-javascript-plain"></i>
+                <i className="devicon-html5-plain-wordmark skill-icon"></i>
+                <i className="devicon-css3-plain-wordmark"></i>
+                <i className="devicon-jquery-plain-wordmark"></i>
+                <i className="devicon-sass-original"></i>
+                <i className="devicon-bootstrap-plain-wordmark"></i>
+                <i className="devicon-react-original-wordmark"></i>
+                <i className="devicon-nodejs-plain-wordmark"></i>
+                <i className="devicon-mongodb-plain-wordmark"></i>
+                <i className="devicon-gulp-plain"></i>
+                <i className="devicon-webpack-plain-wordmark"></i>
+                <i className="devicon-git-plain-wordmark"></i>
+                <i className="devicon-github-plain-wordmark"></i>
+                <i className="devicon-heroku-line-wordmark"></i>
+                <i className="devicon-mocha-plain"></i>
+                <i className="devicon-trello-plain-wordmark"></i>
+              </div>
+
             </Col>
           </Col>
         </Row>
@@ -34,7 +59,7 @@ const Projects = ({scrollTo}) => {
         <Row className="project-3">
           <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
             <Col xs={12} sm={6} md={6} lg={6} className="project-image-left">
-              <img src="https://s3-eu-west-1.amazonaws.com/wdi-30-ldn/portfolio/screenshot_landingpage_project3.png" alt="image02" className="project-img"/>
+              <img src="../../assets/screenshot_landingpage_project3.png" alt="image02" className="project-img"/>
             </Col>
 
             <Col xs={12} sm={6} md={6} lg={6} className="project-text-right">
