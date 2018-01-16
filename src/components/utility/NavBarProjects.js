@@ -11,7 +11,7 @@ const NavBarProjects = ({ handleClick }) => {
   return(
     <Navbar fixedTop fluid className="navBar">
       <Navbar.Header className="navbar-header">
-        <i className="fa fa-bars" aria-hidden="true" onClick={handleClick} id="menu-icon"></i>
+        {/* <i className="fa fa-bars" aria-hidden="true" onClick={handleClick} id="menu-icon"></i> */}
 
         <div className="center-logo-we">
           <Link to="/"><img src="../../assets/WE_Logo_Black.png" alt="logo" className="we-logo" /></Link>

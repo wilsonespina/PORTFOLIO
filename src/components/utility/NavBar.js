@@ -12,7 +12,7 @@ const NavBar = ({ handleClick }) => {
   return(
     <Navbar fixedTop fluid className="navBar">
       <Navbar.Header className="navbar-header">
-        <i className="fa fa-bars" aria-hidden="true" onClick={handleClick} id="menu-icon"></i>
+        {/* <i className="fa fa-bars" aria-hidden="true" onClick={handleClick} id="menu-icon"></i> */}
 
         <div className="center-logo-we">
           <Go activeClass="none" className="section-link" to="main" spy={true} smooth={true} duration={600} offset={-60} ><img src="../../assets/WE_Logo_Black.png" alt="logo" className="we-logo" /></Go>
