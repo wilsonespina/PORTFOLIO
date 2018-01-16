@@ -9,9 +9,6 @@ require('react-bootstrap/lib/NavbarCollapse');
 
 
 const NavBar = ({ handleClick }) => {
-
-// if (history.location.pathname === '/Project1'||'/Project2'||'/Project3'||'/Project4') return null;
-
   return(
     <Navbar fixedTop fluid className="navBar">
       <Navbar.Header className="navbar-header">
@@ -27,9 +24,9 @@ const NavBar = ({ handleClick }) => {
 
       <Navbar.Collapse className="full-navbar">
         <ul className="nav navbar-nav pull-right">
-          <li><Go activeClass="active" className="section-link" to="about" spy={true} smooth={true} duration={500} offset={-60} >about</Go></li>
-          <li><Go activeClass="active" className="section-link" to="skills" spy={true} smooth={true} duration={500} offset={-60} >skills</Go></li>
-          <li><Go activeClass="active" className="section-link" to="projects" spy={true} smooth={true} duration={500} offset={-60} >projects</Go></li>
+          <li><Go activeClass="active" className="section-link" to="about" spy={true} smooth={true} duration={500} offset={-40} >about</Go></li>
+          <li><Go activeClass="active" className="section-link" to="skills" spy={true} smooth={true} duration={500} offset={-40} >skills</Go></li>
+          <li><Go activeClass="active" className="section-link" to="projects" spy={true} smooth={true} duration={500} offset={-40} >projects</Go></li>
           <li><Go activeClass="active" className="section-link" to="contact" spy={true} smooth={true} duration={500} offset={-60} >contact</Go></li>
         </ul>
       </Navbar.Collapse>

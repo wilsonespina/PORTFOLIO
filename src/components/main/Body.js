@@ -37,7 +37,7 @@ class Body extends React.Component {
     console.log(this.state);
 
     return(
-      <Row className="container-fluid">
+      <Row className="container-fluid" id="body-all-padding">
         <Sidebar showNav={this.state.showNav} />
         <NavBar
           handleClick={this.handleClick} />

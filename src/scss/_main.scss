@@ -1,46 +1,33 @@
 // SMARTPHONES PORTRAIT
 @media only screen and (min-width: 300px) {
   h1.animation-header {
-    // position: absolute;
     color: yellow;
-    // top: 35%;
-    // left: 10%;
     font-family: 'tradegothiclt-bold', sans-serif;
     text-transform: uppercase;
     font-size: 2em;
     font-weight: bold;
-    // max-width: 80%;
   }
 }
 
 // SMARTPHONES LANDSCAPE
 @media only screen and (min-width: 480px) {
   h1.animation-header {
-    // position: absolute;
     color: yellow;
-    // top: 35%;
-    // left: 10%;
     font-family: 'tradegothiclt-bold', sans-serif;
     text-transform: uppercase;
     font-size: 3em;
     font-weight: bold;
-    // max-width: 80%;
   }
 }
 
 // TABLETS  PORTRAIT
 @media only screen and (min-width: 768px) {
   h1.animation-header {
-    // position: absolute;
     color: yellow;
-    // top: 35%;
-    // left: 10%;
     font-family: 'tradegothiclt-bold', sans-serif;
     text-transform: uppercase;
     font-size: 5em;
     font-weight: bold;
-    // max-width: 80%;
-
   }
 }
 
@@ -48,15 +35,11 @@
 
 @media only screen and (min-width: 1024px) {
   h1.animation-header {
-    // position: absolute;
     color: yellow;
-    // top: 35%;
-    // left: 10%;
     font-family: 'tradegothiclt-bold', sans-serif;
     text-transform: uppercase;
     font-size: 6em;
     font-weight: bold;
-    // max-width: 80%;
   }
 }
 

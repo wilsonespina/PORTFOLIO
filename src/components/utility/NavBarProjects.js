@@ -25,26 +25,28 @@ const NavBarProjects = ({ handleClick }) => {
         <ul className="nav navbar-nav pull-right">
           <li><Link to="/">home</Link></li>
           <NavDropdown eventKey={1} title="projects" id="basic-nav-dropdown">
-            <MenuItem eventKey={1.2} href="/project1">project 1</MenuItem>
-            <MenuItem eventKey={1.3} href="/project2">project 2</MenuItem>
-            <MenuItem eventKey={1.4} href="/project3">project 3</MenuItem>
-            <MenuItem eventKey={1.5} href="/project4">project 4</MenuItem>
+            <MenuItem eventKey={1.2} href="/project1" className="section-link">project 1</MenuItem>
+            <MenuItem eventKey={1.3} href="/project2" className="section-link">project 2</MenuItem>
+            <MenuItem eventKey={1.4} href="/project3" className="section-link">project 3</MenuItem>
+            <MenuItem eventKey={1.5} href="/project4" className="section-link">project 4</MenuItem>
           </NavDropdown>
         </ul>
       </Navbar.Collapse>
 
-      <div className="spacer-halfblack"></div>
-      <div className="colour-bar-nav">
-        <div className="spacer-nav spacer-yellow"></div>
-        <div className="spacer-nav spacer-green"></div>
-        <div className="spacer-nav spacer-blue"></div>
-        <div className="spacer-nav spacer-pink"></div>
-        <div className="spacer-nav spacer-yellow"></div>
-        <div className="spacer-nav spacer-green"></div>
-        <div className="spacer-nav spacer-blue"></div>
-        <div className="spacer-nav spacer-pink"></div>
+      <div className="bottom-full-spacer-nav container-fluid">
+        <div className="spacer-halfblack"></div>
+        <div className="colour-bar-nav">
+          <div className="spacer-nav spacer-yellow"></div>
+          <div className="spacer-nav spacer-green"></div>
+          <div className="spacer-nav spacer-blue"></div>
+          <div className="spacer-nav spacer-pink"></div>
+          <div className="spacer-nav spacer-yellow"></div>
+          <div className="spacer-nav spacer-green"></div>
+          <div className="spacer-nav spacer-blue"></div>
+          <div className="spacer-nav spacer-pink"></div>
+        </div>
+        <div className="spacer-halfblack"></div>
       </div>
-      <div className="spacer-halfblack"></div>
 
     </Navbar>
 

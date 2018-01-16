@@ -1,5 +1,17 @@
 div.project-individual-section {
   margin-top: 50px;
-  min-height: 100vh;
+  min-height: 80vh;
   background-color: $main-black;
+  .btn {
+    margin: 10px 0;
+  }
+}
+
+div.picture-project-series {
+  width: 100%;
+  text-align: center;
+  img.project-images-screenshots {
+    margin: 5px 0px;
+  }
+  margin: 20px 0 50px 0;
 }

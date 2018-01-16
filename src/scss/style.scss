@@ -57,9 +57,9 @@ h1.heading {
 .large-font {
   font-size: 160%;
 }
-.medium-font {
-  font-size: 140%;
-}
+// .medium-font {
+//   font-size: 140%;
+// }
 .normal-font {
   font-size: 22px;
 }
@@ -76,4 +76,56 @@ h1.heading {
 }
 .margin-top-20 {
   margin-top: 20px;
+}
+
+//********body styling******
+// SMARTPHONES PORTRAIT
+@media only screen and (min-width: 300px) {
+  div#body-all-padding{
+    padding: 0 30px;
+  }
+  .medium-font {
+    font-size: 110%;
+  }
+  .normal-font {
+    font-size: 18px;
+  }
+}
+
+// SMARTPHONES LANDSCAPE
+@media only screen and (min-width: 480px) {
+  div#body-all-padding{
+    padding: 0 30px;
+  }
+  .medium-font {
+    font-size: 110%;
+  }
+  .normal-font {
+    font-size: 18px;
+  }
+}
+// TABLETS  PORTRAIT
+@media only screen and (min-width: 768px) {
+  div#body-all-padding{
+    padding: 0 20px;
+  }
+  .medium-font {
+    font-size: 140%;
+  }
+  .normal-font {
+    font-size: 22px;
+  }
+}
+
+// TABLET LANDSCAPE / DESKTOP
+@media only screen and (min-width: 1024px) {
+  div#body-all-padding{
+    padding: 0 20px;
+  }
+  .medium-font {
+    font-size: 140%;
+  }
+  .normal-font {
+    font-size: 22px;
+  }
 }
