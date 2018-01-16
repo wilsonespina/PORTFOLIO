@@ -11,7 +11,7 @@ const Skills = () => {
         <Row className="skills-container">
           <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="skills-box">
             <div className="container-fluid margin-top-20 margin-bottom-20">
-              <h3 className="span-pink margin-bottom-50"><span className="large-font">Development Skills...</span></h3>
+              <h3 className="span-pink margin-bottom-50"><span className="large-font">Development Skills</span></h3>
 
               <i className="devicon-javascript-plain"></i>
               <i className="devicon-html5-plain-wordmark skill-icon"></i>

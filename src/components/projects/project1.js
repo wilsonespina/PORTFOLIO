@@ -53,7 +53,6 @@ class Project1 extends React.Component {
               <i className="devicon-git-plain-wordmark"></i>
               <i className="devicon-github-plain-wordmark"></i>
               <i className="devicon-heroku-line-wordmark"></i>
-              <i className="devicon-trello-plain-wordmark"></i>
             </div>
 
             <div className="picture-project-series container-fluid">

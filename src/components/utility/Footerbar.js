@@ -19,6 +19,8 @@ const Footerbar = ({scrollTo}) => {
       </div>
       <div className="spacer-halfblack"></div>
       <div className="icon-bar">
+        <a href="mailto:wilson.espina@gmail.com" className="sidebar-link"><i className="fa fa-envelope" aria-hidden="true"></i></a>
+
         <a href="https://www.linkedin.com/in/wilson-espina" target="blank" className="sidebar-link"> <i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
 
         <a href="https://github.com/wilsonespina" target="blank" className="sidebar-link"><i className="fa fa-github" aria-hidden="true"></i></a>

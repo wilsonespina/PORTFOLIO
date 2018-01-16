@@ -1,4 +1,54 @@
 div.contact-section{
   min-height: 100vh;
-  background-color: yellow;
+  background-color: $main-black;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+// SMARTPHONES PORTRAIT
+@media only screen and (min-width: 300px) {
+  div.contact-links-tile {
+    position: absolute;
+    text-align: left;
+    margin-left: 40px;
+    .ga-icon {
+      width: 110px;
+      color: $font-blue;
+      display: inline-block;
+      margin-left: 15px;
+    }
+  }
+}
+
+// SMARTPHONES LANDSCAPE
+@media only screen and (min-width: 480px) {
+  div.contact-links-tile {
+    position: absolute;
+    text-align: left;
+    margin-left: 50px;
+  }
+}
+
+// TABLETS  PORTRAIT
+@media only screen and (min-width: 768px) {
+  div.contact-links-tile {
+    position: absolute;
+    text-align: left;
+    margin-left: 100px;
+  }
+}
+
+// TABLET LANDSCAPE / DESKTOP
+@media only screen and (min-width: 1024px) {
+  div.contact-links-tile {
+    position: absolute;
+    text-align: left;
+    margin-left: 100px;
+    .ga-icon {
+      width: 110px;
+      color: $font-blue;
+      display: inline-block;
+      margin-left: 15px;
+    }
+  }
 }

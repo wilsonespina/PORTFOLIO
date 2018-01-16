@@ -13,7 +13,7 @@ const Projects = ({scrollTo}) => {
         <Row className="project-4">
           <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="project-tile">
             <div className="projects-heading-top center-text">
-              <h3 className="span-pink"><span className="large-font">Projects...</span></h3>
+              <h3 className="span-pink"><span className="large-font">Projects</span></h3>
               <h3 className="span-green">Some of my past work</h3>
             </div>
 

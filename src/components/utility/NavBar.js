@@ -27,7 +27,7 @@ const NavBar = ({ handleClick }) => {
           <li><Go activeClass="active" className="section-link" to="about" spy={true} smooth={true} duration={500} offset={-40} >about</Go></li>
           <li><Go activeClass="active" className="section-link" to="skills" spy={true} smooth={true} duration={500} offset={-40} >skills</Go></li>
           <li><Go activeClass="active" className="section-link" to="projects" spy={true} smooth={true} duration={500} offset={-40} >projects</Go></li>
-          <li><Go activeClass="active" className="section-link" to="contact" spy={true} smooth={true} duration={500} offset={-60} >contact</Go></li>
+          <li><Go activeClass="active" className="section-link" to="contact" spy={true} smooth={true} duration={500} offset={-40} >contact</Go></li>
         </ul>
       </Navbar.Collapse>
 
