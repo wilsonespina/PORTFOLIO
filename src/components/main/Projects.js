@@ -74,9 +74,9 @@ const Projects = ({scrollTo}) => {
 
               <h2 className="span-green">RESTful app</h2>
 
-              <p className="span-white small-font">For my second app, I created a <span className="medium-font">RESTful</span> application with authentication so that users could <span className="medium-font">login</span> and <span className="medium-font">comment</span> on their favourite Katsu Curry spots they've found in London.</p>
+              <p className="span-white small-font">For my second app, I created a <span className="medium-font">RESTful</span> application with authentication so that users could <span className="medium-font">login</span> and <span className="medium-font">comment</span> on their favourite Katsu Curry spots in London.</p>
 
-              <p className="span-white small-font">Creating the KatSuper Store was also the first time I got used <span className="medium-font">SASS</span> and <span className="medium-font">EJS</span> in project.</p>
+              <p className="span-white small-font">Creating the KatSuper Store was also the first time I got to use <span className="medium-font">SASS</span> and <span className="medium-font">EJS</span> in a project.</p>
 
             </Col>
           </Col>
