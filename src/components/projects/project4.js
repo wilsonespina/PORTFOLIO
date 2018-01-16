@@ -46,6 +46,23 @@ class Project4 extends React.Component {
 
             <p className="span-white medium-font">Given that the project was only a week long, I would have loved to have worked on extra features. One such feature was to improve the overall UX experience by allowing users to choose their own waypoints on Google Maps and then send them directly to Google Navigation. I also wanted to add a customisation feature where people can choose different snazzymaps styles on their profile page.</p>
 
+            <div className="projects-icons-box span-blue">
+              <i className="devicon-javascript-plain"></i>
+              <i className="devicon-html5-plain-wordmark skill-icon"></i>
+              <i className="devicon-css3-plain-wordmark"></i>
+              <i className="devicon-react-original-wordmark"></i>
+              <i className="devicon-sass-original"></i>
+              <i className="devicon-bootstrap-plain-wordmark"></i>
+              <i className="devicon-nodejs-plain-wordmark"></i>
+              <i className="devicon-mongodb-plain-wordmark"></i>
+              <i className="devicon-gulp-plain"></i>
+              <i className="devicon-webpack-plain-wordmark"></i>
+              <i className="devicon-git-plain-wordmark"></i>
+              <i className="devicon-github-plain-wordmark"></i>
+              <i className="devicon-heroku-line-wordmark"></i>
+              <i className="devicon-trello-plain-wordmark"></i>
+            </div>
+
             <div className="picture-project-series container-fluid">
               <a href="https://running-trace.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_landing.jpg" alt="project4-img1" className="project-images-screenshots"/></a>
               <a href="https://running-trace.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_profile.png" alt="project4-img2" className="project-images-screenshots"/></a>

@@ -15,24 +15,13 @@ div.project-tile {
   background-color: $sidebar-black;
   padding: 10px 0 20px 0;
   margin-bottom: 10px;
-  div.projects-icons-box {
-    text-align: center;
-    margin-top: 20px;
-    i {
-      font-size: 45px;
-      padding: 2px;
-      word-wrap: break-word;
-    }
-  }
 }
 //**********image styling*********
 
 img.project-img {
   width: 100%;
-  // max-width: 300px;
   margin-top: 15px;
   opacity: 1;
-  // display: block;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;

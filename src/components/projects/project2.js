@@ -38,12 +38,34 @@ class Project2 extends React.Component {
 
         <Row className="project-individual-section container-fluid">
           <div className="container">
-            <h1 className="span-pink">Project 2</h1>
-            <Link to="/">back</Link>
 
-            <p className="span-white">For my second major project at GA, I created my first fully RESTful application with backend authentication using Express.js Sessions. This project was my first opportunity to get to grips with an application that demonstrated the create, read update, delete (CRUD) functionality found in most websites.</p>
+            <h1 className="span-white"><span className="span-yellow">'KatSuper Store'</span><span className="span-pink"> - </span><span className="span-pink text-small">Project 2</span></h1>
 
-            <p className="span-white">During the course at GA, my coursemates and I often got food from a local food market near the campus. One particular Japanese Katsu wrap stall stood out and in tribute to that stall I chose to create site all about the best Katsu spot in London. The app uses embedded JavaScript (EJS) to render views in the browser and users can add, rate and comment on their favourite katsu curry places.</p>
+            <a href="https://katsuper-store.herokuapp.com/" target="blank"><div className="btn btn-info btn-large">Link on Heroku</div></a>
+
+            <p className="span-white medium-font">For my second major project at GA, I created my first fully RESTful application with backend authentication using Express.js Sessions. This project was my first opportunity to get to grips with an application that demonstrated the create, read update, delete (CRUD) functionality found in most websites.</p>
+
+            <p className="span-white medium-font">During the course at GA, my coursemates and I often got food from a local food market near the campus. One particular Japanese Katsu wrap stall stood out and in tribute to that stall I chose to create site all about the best Katsu spot in London. The app uses embedded JavaScript (EJS) to render views in the browser and users can add, rate and comment on their favourite katsu curry places.</p>
+
+            <div className="projects-icons-box span-blue">
+              <i className="devicon-javascript-plain"></i>
+              <i className="devicon-html5-plain-wordmark skill-icon"></i>
+              <i className="devicon-css3-plain-wordmark"></i>
+              <i className="devicon-sass-original"></i>
+              <i className="devicon-bootstrap-plain-wordmark"></i>
+              <i className="devicon-nodejs-plain-wordmark"></i>
+              <i className="devicon-mongodb-plain-wordmark"></i>
+              <i className="devicon-gulp-plain"></i>
+              <i className="devicon-git-plain-wordmark"></i>
+              <i className="devicon-github-plain-wordmark"></i>
+              <i className="devicon-heroku-line-wordmark"></i>
+              <i className="devicon-trello-plain-wordmark"></i>
+            </div>
+
+            <div className="picture-project-series container-fluid">
+              <a href="https://katsuper-store.herokuapp.com/" target="blank"><img src="../../assets/screenshot_landingpage.jpg" alt="project2-img1" className="project-images-screenshots"/></a>
+
+            </div>
           </div>
         </Row>
       </Row>

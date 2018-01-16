@@ -24,11 +24,11 @@ const About = () => {
               </div>
 
 
-              <blockquote className="quotation-marks"></blockquote><p className="span-white normal-font margin-bottom-50 margin-top-minus60">Having recently decided on a huge a career change, I have recently graduated from <em>General Assembly</em> London{"'"}s Web Development Immersive course.</p>
+              <blockquote className="quotation-marks"></blockquote><p className="span-white normal-font margin-bottom-50 margin-top-minus60 padding-sides-10">Having recently decided on a huge a career change, I have recently graduated from <em>General Assembly</em> London{"'"}s Web Development Immersive course.</p>
 
               <p className="span-white normal-font margin-bottom-50">I had an early career within civil engineering projects. However, having had a taste for web developing, I{"'"}m now hooked!</p>
 
-              <p className="span-white normal-font">I{"'"}m also partial to a bit of a dance now and again.</p>
+              <p className="span-white normal-font margin-bottom-50">I{"'"}m also partial to a bit of a dance now and again.</p>
 
             </div>
           </Col>

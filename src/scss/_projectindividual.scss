@@ -5,6 +5,15 @@ div.project-individual-section {
   .btn {
     margin: 10px 0;
   }
+  div.projects-icons-box {
+    text-align: center;
+    margin: 20px 0 50px 0;
+    i {
+      font-size: 65px;
+      padding: 4px;
+      word-wrap: break-word;
+    }
+  }
 }
 
 div.picture-project-series {
@@ -12,6 +21,7 @@ div.picture-project-series {
   text-align: center;
   img.project-images-screenshots {
     margin: 5px 0px;
+    width: 100%
   }
   margin: 20px 0 50px 0;
 }

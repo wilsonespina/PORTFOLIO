@@ -33,23 +33,6 @@ const Projects = ({scrollTo}) => {
 
               <p className="span-white small-font">The app uses the <span className="medium-font">Strava</span> and <span className="medium-font">Google Maps</span> APIs to help visualise the trace of real-life runs. People can the <span className="medium-font">comment</span> and <span className="medium-font">rate</span> runs submitted by the TRACE community.</p>
 
-              <div className="projects-icons-box span-blue">
-                <i className="devicon-javascript-plain"></i>
-                <i className="devicon-html5-plain-wordmark skill-icon"></i>
-                <i className="devicon-css3-plain-wordmark"></i>
-                <i className="devicon-react-original-wordmark"></i>
-                <i className="devicon-sass-original"></i>
-                <i className="devicon-bootstrap-plain-wordmark"></i>
-                <i className="devicon-nodejs-plain-wordmark"></i>
-                <i className="devicon-mongodb-plain-wordmark"></i>
-                <i className="devicon-gulp-plain"></i>
-                <i className="devicon-webpack-plain-wordmark"></i>
-                <i className="devicon-git-plain-wordmark"></i>
-                <i className="devicon-github-plain-wordmark"></i>
-                <i className="devicon-heroku-line-wordmark"></i>
-                <i className="devicon-trello-plain-wordmark"></i>
-              </div>
-
             </Col>
           </Col>
         </Row>
@@ -71,23 +54,6 @@ const Projects = ({scrollTo}) => {
               <p className="span-white small-font">In my group project, we created an app to help people plan their nights when going to gigs in London. We used real-life data from the <span className="medium-font">TicketMaster</span> API and to display event information and we displayed the locations using the <span className="medium-font">Google Maps</span> API.</p>
 
               <p className="span-white small-font">Within the app, users can <span className="medium-font">create</span> their own groups for each event and people can leave <span className="medium-font">comments</span> for others in the group.</p>
-
-              <div className="projects-icons-box span-blue">
-                <i className="devicon-javascript-plain"></i>
-                <i className="devicon-html5-plain-wordmark skill-icon"></i>
-                <i className="devicon-css3-plain-wordmark"></i>
-                <i className="devicon-angularjs-plain-wordmark"></i>
-                <i className="devicon-sass-original"></i>
-                <i className="devicon-bootstrap-plain-wordmark"></i>
-                <i className="devicon-nodejs-plain-wordmark"></i>
-                <i className="devicon-mongodb-plain-wordmark"></i>
-                <i className="devicon-gulp-plain"></i>
-                <i className="devicon-git-plain-wordmark"></i>
-                <i className="devicon-github-plain-wordmark"></i>
-                <i className="devicon-heroku-line-wordmark"></i>
-                <i className="devicon-mocha-plain"></i>
-                <i className="devicon-trello-plain-wordmark"></i>
-              </div>
 
             </Col>
           </Col>
@@ -112,21 +78,6 @@ const Projects = ({scrollTo}) => {
 
               <p className="span-white small-font">Creating the KatSuper Store was also the first time I got used <span className="medium-font">SASS</span> and <span className="medium-font">EJS</span> in project.</p>
 
-              <div className="projects-icons-box span-blue">
-                <i className="devicon-javascript-plain"></i>
-                <i className="devicon-html5-plain-wordmark skill-icon"></i>
-                <i className="devicon-css3-plain-wordmark"></i>
-                <i className="devicon-sass-original"></i>
-                <i className="devicon-bootstrap-plain-wordmark"></i>
-                <i className="devicon-nodejs-plain-wordmark"></i>
-                <i className="devicon-mongodb-plain-wordmark"></i>
-                <i className="devicon-gulp-plain"></i>
-                <i className="devicon-git-plain-wordmark"></i>
-                <i className="devicon-github-plain-wordmark"></i>
-                <i className="devicon-heroku-line-wordmark"></i>
-                <i className="devicon-trello-plain-wordmark"></i>
-              </div>
-
             </Col>
           </Col>
         </Row>
@@ -148,16 +99,6 @@ const Projects = ({scrollTo}) => {
 
               <p className="span-white small-font">In my first project at GA, I created a simple block moving game purely using <span className="medium-font">JavaScript</span> and <span className="medium-font">CSS</span>. I emulated a retro gaming experience and based it around one of my favourite games growing up - <span className="medium-font">Pok&eacute;mon</span>.</p>
 
-              <div className="projects-icons-box span-blue">
-                <i className="devicon-javascript-plain"></i>
-                <i className="devicon-html5-plain-wordmark skill-icon"></i>
-                <i className="devicon-css3-plain-wordmark"></i>
-                <i className="devicon-jquery-plain-wordmark"></i>
-                <i className="devicon-git-plain-wordmark"></i>
-                <i className="devicon-github-plain-wordmark"></i>
-                <i className="devicon-heroku-line-wordmark"></i>
-                <i className="devicon-trello-plain-wordmark"></i>
-              </div>
             </Col>
           </Col>
         </Row>
