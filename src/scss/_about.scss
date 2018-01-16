@@ -1,35 +1,96 @@
-div.about-section{
-  background-color: $main-black;
-  padding-bottom: 20px;
-  img {
-    height: auto;
-    max-width: 35%;
-    min-width: 250px;
-    float: right;
+// SMARTPHONES PORTRAIT
+@media only screen and (min-width: 300px) {
+  div.about-section{
+    img {
+      display: block;
+      margin-left: auto;
+	    margin-right: auto;
+      height: auto;
+      min-width: 100%;
+      // float: right;
+      border-bottom: 2px solid white;
+    }
   }
 }
 
+// SMARTPHONES LANDSCAPE
+@media only screen and (min-width: 480px) {
+  div.about-section{
+    text-align: center;
+    img {
+      display: block;
+      margin-left: auto;
+	    margin-right: auto;
+      height: auto;
+      min-width: 80%;
+      // float: right;
+      border-bottom: 2px solid white;
+    }
+  }
+}
+
+// TABLETS  PORTRAIT
+@media only screen and (min-width: 768px) {
+  div.about-section{
+    img {
+      height: auto;
+      min-width: 180px;
+      float: right;
+      border-bottom: 2px solid white;
+    }
+  }
+}
+
+// TABLET LANDSCAPE / DESKTOP
+@media only screen and (min-width: 1024px) {
+  div.about-section{
+    img {
+      height: auto;
+      min-width: 220px;
+      float: right;
+      border-bottom: 2px solid white;
+    }
+  }
+}
+
+div.about-section{
+  background-color: $main-black;
+  padding-bottom: 20px;
+}
+
 div.about-box {
-  min-height: 90vh;
+  min-height: 80vh;
   margin-top: 20px;
   text-align: center;
   background-color: $sidebar-black;
   padding: 20px 0;
+  div.info-box{
+    word-wrap: break-word;
+  }
 }
 
-//
-// // SMARTPHONES PORTRAIT
-// @media only screen and (min-width: 300px) {
-// }
-//
-// // SMARTPHONES LANDSCAPE
-// @media only screen and (min-width: 480px) {
-// }
-//
-// // TABLETS  PORTRAIT
-// @media only screen and (min-width: 768px) {
-// }
-//
-// // TABLET LANDSCAPE / DESKTOP
-// @media only screen and (min-width: 1024px) {
-// }
+blockquote {
+  border:none;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  quotes: "\201C""\201D""\2018""\2019";
+  display: inline;
+}
+blockquote:before {
+  content: open-quote;
+  font-weight: bold;
+  font-size:120px;
+  color:$font-green;
+  margin: 0 6px;
+}
+blockquote:after {
+  content: close-quote;
+  font-weight: bold;
+  font-size:120px;
+  color:$font-green;
+  margin: 0 6px;
+  // display: none;
+}
+
+.margin-top-minus60 {
+  margin-top: -60px;
+}

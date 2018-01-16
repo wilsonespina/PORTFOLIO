@@ -13,16 +13,23 @@ const About = () => {
           <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="about-box">
             <div className="container-fluid">
 
-
-              <h3 className="span-pink"><span className="medium-font">Welcome</span> to my <span className="large-font"><em>Portfolio....</em></span></h3>
-
-              <p className="span-white normal-font">{"I am a recent graduate from General Assembly's Web Development Immersive course"}</p>
-
+              <h3 className="span-pink margin-bottom-50"><span className="medium-font">Welcome</span> to my <span className="large-font">Portfolio...</span></h3>
 
               <img src='../../assets/HEADSHOT.png' alt="profile-img" className="profile-pic responsive-img"/>
-              <h1 className="span-blue">Wilson Espina</h1>
-              <h3 className="span-green">Front End Web Developer</h3>
-              <h3 className="span-white">(<span className="span-blue">ex</span>)Breakdancer</h3>
+
+              <div className="info-box">
+                <h1 className="span-blue">Wilson Espina</h1>
+                <h3 className="span-green">Front End Web Developer</h3>
+                <h3 className="span-yellow margin-bottom-20"><em>(<span className="span-white">ex</span>)Breakdancer</em></h3>
+              </div>
+
+
+              <blockquote className="quotation-marks"></blockquote><p className="span-white normal-font margin-bottom-50 margin-top-minus60">Having recently decided on a huge a career change, I have recently graduated from <em>General Assembly</em> London{"'"}s Web Development Immersive course.</p>
+
+              <p className="span-white normal-font margin-bottom-50">I had an early career within civil engineering projects. However, having had a taste for web developing, I{"'"}m now hooked!</p>
+
+              <p className="span-white normal-font">I{"'"}m also partial to a bit of a dance now and again...</p>
+
             </div>
           </Col>
         </Row>
