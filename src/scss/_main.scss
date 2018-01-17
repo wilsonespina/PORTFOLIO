@@ -75,6 +75,8 @@ img.view-height {
 div.main-top-section {
   position: relative;
   min-height: 100vh;
+  background-position: center top;
+  background-attachment: fixed;
 }
 
 span.blinking {

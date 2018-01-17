@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded',function(event){
 const Main = () => {
 
   return(
-    <Row className="main-section section container-fluid">
+    <Row className="main-section section">
 
       <Element name="main" className="element" >
         <div className="main-top-section">
