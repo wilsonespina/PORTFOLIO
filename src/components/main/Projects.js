@@ -29,9 +29,9 @@ const Projects = ({scrollTo}) => {
 
               <h2 className="span-green">MERN stack application</h2>
 
-              <p className="span-white small-font">I created a competitive <span className="medium-font">running app</span> that encourages users to compete and upload the best running traces they’ve saved on the exercise app, <span className="medium-font">Strava</span>.</p>
+              <p className="span-white small-font">I created a competitive <span className="medium-font">running app</span> that encourages users to upload their best running traces saved on their exercise app, <span className="medium-font">Strava</span>.</p>
 
-              <p className="span-white small-font">The app uses the <span className="medium-font">Strava</span> and <span className="medium-font">Google Maps</span> APIs to help visualise the trace of real-life runs. People can the <span className="medium-font">comment</span> and <span className="medium-font">rate</span> runs submitted by the TRACE community.</p>
+              <p className="span-white small-font">The app uses the <span className="medium-font">Strava</span> and <span className="medium-font">Google Maps</span> APIs to help visualise the trace of real-life runs. People can then <span className="medium-font">comment</span> and <span className="medium-font">rate</span> runs submitted by the TRACE community.</p>
 
             </Col>
           </Col>
@@ -51,9 +51,9 @@ const Projects = ({scrollTo}) => {
 
               <h2 className="span-green">MEAN stack group project</h2>
 
-              <p className="span-white small-font">In my group project, we created an app to help people plan their nights when going to gigs in London. We used real-life data from the <span className="medium-font">TicketMaster</span> API and to display event information and we displayed the locations using the <span className="medium-font">Google Maps</span> API.</p>
+              <p className="span-white small-font">In my group project, we created an app to help people plan their gigs nights out in London. We used data from the <span className="medium-font">TicketMaster</span> API to display event information and used the <span className="medium-font">Google Maps</span> API to show where the they were.</p>
 
-              <p className="span-white small-font">Within the app, users can <span className="medium-font">create</span> their own groups for each event and people can leave <span className="medium-font">comments</span> for others in the group.</p>
+              <p className="span-white small-font">Within the app, users can <span className="medium-font">create</span> their own groups for each event and also leave <span className="medium-font">comments</span> for others.</p>
 
             </Col>
           </Col>
@@ -97,7 +97,7 @@ const Projects = ({scrollTo}) => {
 
               <h2 className="span-green">JavaScript game</h2>
 
-              <p className="span-white small-font">In my first project at GA, I created a simple block moving game purely using <span className="medium-font">JavaScript</span> and <span className="medium-font">CSS</span>. I emulated a retro gaming experience and based it around one of my favourite games growing up - <span className="medium-font">Pok&eacute;mon</span>.</p>
+              <p className="span-white small-font">In my first project at GA, I created a simple block moving game using <span className="medium-font">JavaScript/jQuery</span> and <span className="medium-font">CSS</span>. I emulated a retro gaming experience and based it around one of my favourite games growing up - <span className="medium-font">Pok&eacute;mon</span>.</p>
 
             </Col>
           </Col>
