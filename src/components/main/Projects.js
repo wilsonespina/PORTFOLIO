@@ -29,7 +29,7 @@ const Projects = ({scrollTo}) => {
 
               <h2 className="span-green">MERN stack application</h2>
 
-              <p className="span-white small-font">I created a competitive <span className="medium-font">running app</span> that encourages users to upload their best running traces saved on their exercise app, <span className="medium-font">Strava</span>.</p>
+              <p className="span-white small-font">I created a competitive <span className="medium-font">running app</span> that encourages users to upload the best running traces saved on their exercise app, <span className="medium-font">Strava</span>.</p>
 
               <p className="span-white small-font">The app uses the <span className="medium-font">Strava</span> and <span className="medium-font">Google Maps</span> APIs to help visualise the trace of real-life runs. People can then <span className="medium-font">comment</span> and <span className="medium-font">rate</span> runs submitted by the TRACE community.</p>
 
