@@ -11,8 +11,7 @@ div.contact-section{
     word-wrap: break-word;
     position: absolute;
     text-align: left;
-    margin-left: 30px;
-    font-size: 20px;
+    font-size: 16px;
     .ga-icon {
       width: 110px;
       color: $font-blue;
@@ -25,6 +24,9 @@ div.contact-section{
     a:hover{
       text-decoration: none;
     }
+    .disappear {
+      display: none;
+    }
   }
 }
 
@@ -33,7 +35,7 @@ div.contact-section{
   div.contact-links-tile {
     position: absolute;
     text-align: left;
-    margin-left: 30px;
+    margin-left: 10px;
     font-size: 20px;
   }
   i.fa {
@@ -42,6 +44,9 @@ div.contact-section{
   a:hover{
     text-decoration: none;
   }
+  .disappear {
+    display: inline;
+  }
 }
 
 // TABLETS  PORTRAIT
@@ -49,7 +54,7 @@ div.contact-section{
   div.contact-links-tile {
     position: absolute;
     text-align: left;
-    margin-left: 100px;
+    margin-left: 60px;
     font-size: 25px;
   }
   i.fa {
@@ -57,6 +62,9 @@ div.contact-section{
   }
   a:hover{
     text-decoration: none;
+  }
+  .disappear {
+    display: inline;
   }
 }
 
@@ -67,17 +75,20 @@ div.contact-section{
     text-align: left;
     margin-left: 100px;
     font-size: 25px;
-    .ga-icon {
-      width: 110px;
-      color: $font-blue;
-      display: inline-block;
-      margin-left: 15px;
-    }
+    // .ga-icon {
+    //   width: 110px;
+    //   color: $font-blue;
+    //   display: inline-block;
+    //   margin-left: 15px;
+    // }
     i.fa {
       font-size: 80px;
     }
     a:hover{
       text-decoration: none;
+    }
+    .disappear {
+      display: inline;
     }
   }
 }
