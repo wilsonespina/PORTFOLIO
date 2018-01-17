@@ -65,6 +65,9 @@ class Project3 extends React.Component {
 
             <div className="picture-project-series container-fluid">
               <a href="https://gigly-wilson.herokuapp.com/" target="blank"><img src="../../assets/screenshot_landingpage_project3.png" alt="project3-img1" className="project-images-screenshots"/></a>
+              <a href="https://gigly-wilson.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_eventIndex.png" alt="project3-img2" className="project-images-screenshots"/></a>
+              <a href="https://gigly-wilson.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_eventShow.png" alt="project3-img3" className="project-images-screenshots"/></a>
+              <a href="https://gigly-wilson.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_groupShow.png" alt="project3-img4" className="project-images-screenshots"/></a>
 
             </div>
           </div>

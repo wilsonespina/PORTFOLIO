@@ -64,6 +64,9 @@ class Project2 extends React.Component {
 
             <div className="picture-project-series container-fluid">
               <a href="https://katsuper-store.herokuapp.com/" target="blank"><img src="../../assets/screenshot_landingpage.jpg" alt="project2-img1" className="project-images-screenshots"/></a>
+              <a href="https://katsuper-store.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_indexpage.jpg" alt="project2-img2" className="project-images-screenshots"/></a>
+              <a href="https://katsuper-store.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_registerpage.jpg" alt="project2-img3" className="project-images-screenshots"/></a>
+              <a href="https://katsuper-store.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_showpage.jpg" alt="project2-img4" className="project-images-screenshots"/></a>
 
             </div>
           </div>
