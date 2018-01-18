@@ -11,7 +11,7 @@ const Contact = ({scrollTo}) => {
         <Row className="contact-container">
           <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="skills-box">
             <div className="container-fluid margin-top-20 margin-bottom-20">
-              <h3 className="span-pink margin-bottom-50"><span className="large-font">Contact</span></h3>
+              <h3 className="span-pink margin-bottom-50"><span className="xl-font">|</span><span className="medium-font">Contact</span><span className="xl-font">|</span></h3>
 
               <div className="contact-links-tile large-font span-blue">
                 <a href="mailto:wilson.espina@gmail.com"><div className="email"><i className="fa fa-envelope" aria-hidden="true"></i><span className="disappear">Email - </span><span className="span-white"><em>wilson.espina@gmail.com</em></span></div></a>

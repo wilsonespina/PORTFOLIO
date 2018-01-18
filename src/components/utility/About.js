@@ -13,14 +13,14 @@ const About = () => {
           <Col xs={12} sm={10} smOffset={1} md={10} mdOffset={1} lg={10} lgOffset={1} className="about-box">
             <div className="container-fluid">
 
-              <h3 className="span-pink margin-bottom-50"><span className="medium-font">Welcome</span> to my <span className="large-font">Portfolio...</span></h3>
+              <h3 className="span-pink margin-bottom-50 welcome-banner"><span className="xl-font">|</span><span className="medium-font">Welcome</span><span className="normal-font"> to my </span><span className="medium-font">Portfolio</span><span className="xl-font">|</span></h3>
 
               <img src='../../assets/HEADSHOT.png' alt="profile-img" className="profile-pic responsive-img"/>
 
               <div className="info-box">
-                <h1 className="span-blue">Wilson Espina</h1>
-                <h3 className="span-green">Front End Web Developer</h3>
-                <h3 className="span-yellow margin-bottom-20"><em>(<span className="span-white">ex</span>)Breakdancer</em></h3>
+                <h1 className="span-blue large-font">Wilson Espina</h1>
+                <h3 className="span-green large-font">Front End Web Developer</h3>
+                <h3 className="span-yellow margin-bottom-20 medium-font"><em>(<span className="span-white">ex</span>)Breakdancer</em></h3>
               </div>
 
 
