@@ -41,7 +41,7 @@ class Project2 extends React.Component {
 
             <h1 className="span-white"><span className="span-yellow">'KatSuper Store'</span><span className="span-pink"> - </span><span className="span-pink text-small">Project 2</span></h1>
 
-            <a href="https://katsuper-store.herokuapp.com/" target="blank"><div className="btn btn-info btn-large">Link on Heroku</div></a>
+            <a href="https://portfolio-project-2.herokuapp.com/" target="blank"><div className="btn btn-info btn-large">Link on Heroku</div></a>
 
             <p className="span-white medium-font">For my second major project at GA, I created my first fully RESTful application with backend authentication using Express.js Sessions. This project was my first opportunity to get to grips with an application that demonstrated the create, read update, delete (CRUD) functionality found in most websites.</p>
 
@@ -63,10 +63,10 @@ class Project2 extends React.Component {
             </div>
 
             <div className="picture-project-series container-fluid">
-              <a href="https://katsuper-store.herokuapp.com/" target="blank"><img src="../../assets/screenshot_landingpage.jpg" alt="project2-img1" className="project-images-screenshots"/></a>
-              <a href="https://katsuper-store.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_indexpage.jpg" alt="project2-img2" className="project-images-screenshots"/></a>
-              <a href="https://katsuper-store.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_registerpage.jpg" alt="project2-img3" className="project-images-screenshots"/></a>
-              <a href="https://katsuper-store.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_showpage.jpg" alt="project2-img4" className="project-images-screenshots"/></a>
+              <a href="https://portfolio-project-2.herokuapp.com/" target="blank"><img src="../../assets/screenshot_landingpage.jpg" alt="project2-img1" className="project-images-screenshots"/></a>
+              <a href="https://portfolio-project-2.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_indexpage.jpg" alt="project2-img2" className="project-images-screenshots"/></a>
+              <a href="https://portfolio-project-2.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_registerpage.jpg" alt="project2-img3" className="project-images-screenshots"/></a>
+              <a href="https://portfolio-project-2.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_showpage.jpg" alt="project2-img4" className="project-images-screenshots"/></a>
 
             </div>
           </div>

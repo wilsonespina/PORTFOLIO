@@ -40,7 +40,7 @@ class Project3 extends React.Component {
           <div className="container">
             <h1 className="span-white"><span className="span-yellow">'Gig.ly'</span><span className="span-pink"> - </span><span className="span-pink text-small">Project 3</span></h1>
 
-            <a href="https://gigly-wilson.herokuapp.com/" target="blank"><div className="btn btn-info btn-large">Link on Heroku</div></a>
+            <a href="https://portfolio-group-project.herokuapp.com/" target="blank"><div className="btn btn-info btn-large">Link on Heroku</div></a>
 
             <p className="span-white medium-font">In my third project, I worked in a four person group project where our product was a social music event app designed for people to create groups attending upcoming gigs. Our application used a MEAN stack and combined three external API’s, pulling event information from Ticketmaster, playing relevant songs from Spotify and displaying the location for each event using Google Maps.</p>
 
@@ -64,10 +64,10 @@ class Project3 extends React.Component {
             </div>
 
             <div className="picture-project-series container-fluid">
-              <a href="https://gigly-wilson.herokuapp.com/" target="blank"><img src="../../assets/screenshot_landingpage_project3.png" alt="project3-img1" className="project-images-screenshots"/></a>
-              <a href="https://gigly-wilson.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_eventIndex.png" alt="project3-img2" className="project-images-screenshots"/></a>
-              <a href="https://gigly-wilson.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_eventShow.png" alt="project3-img3" className="project-images-screenshots"/></a>
-              <a href="https://gigly-wilson.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_groupShow.png" alt="project3-img4" className="project-images-screenshots"/></a>
+              <a href="https://portfolio-group-project.herokuapp.com/" target="blank"><img src="../../assets/screenshot_landingpage_project3.png" alt="project3-img1" className="project-images-screenshots"/></a>
+              <a href="https://portfolio-group-project.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_eventIndex.png" alt="project3-img2" className="project-images-screenshots"/></a>
+              <a href="https://portfolio-group-project.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_eventShow.png" alt="project3-img3" className="project-images-screenshots"/></a>
+              <a href="https://portfolio-group-project.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_groupShow.png" alt="project3-img4" className="project-images-screenshots"/></a>
 
             </div>
           </div>

@@ -40,7 +40,7 @@ class Project4 extends React.Component {
           <div className="container">
             <h1 className="span-white"><span className="span-yellow">'TRACE'</span><span className="span-pink"> - </span><span className="span-pink text-small">Project 4</span></h1>
 
-            <a href="https://running-trace.herokuapp.com/" target="blank"><div className="btn btn-info btn-large">Link on Heroku</div></a>
+            <a href="https://portfolio-project-4.herokuapp.com/" target="blank"><div className="btn btn-info btn-large">Link on Heroku</div></a>
 
             <p className="span-white medium-font">My final project at General Assembly was to create a full MERN stack application with an open scope to create any site within a week. The website ended up being a social exercising platform which encourages people to compete and upload the best running traces they’ve saved on the exercise app, Strava. I combined map data received from the Strava API and with the Google Maps API to give a visual representation of run activities. My website also included the ability to rate and comment on other people’s saved runs. This project was a brilliant opportunity  to incorporate smaller features learnt on the WDI course, such as having a search and filter box on the main page.</p>
 
@@ -64,10 +64,10 @@ class Project4 extends React.Component {
             </div>
 
             <div className="picture-project-series container-fluid">
-              <a href="https://running-trace.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_landing.jpg" alt="project4-img1" className="project-images-screenshots"/></a>
-              <a href="https://running-trace.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_profile.png" alt="project4-img2" className="project-images-screenshots"/></a>
-              <a href="https://running-trace.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_usersshow.png" alt="project4-img3" className="project-images-screenshots"/></a>
-              <a href="https://running-trace.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_comments_rating.jpg" alt="project4-img4" className="project-images-screenshots"/></a>
+              <a href="https://portfolio-project-4.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_landing.jpg" alt="project4-img1" className="project-images-screenshots"/></a>
+              <a href="https://portfolio-project-4.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_profile.png" alt="project4-img2" className="project-images-screenshots"/></a>
+              <a href="https://portfolio-project-4.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_usersshow.png" alt="project4-img3" className="project-images-screenshots"/></a>
+              <a href="https://portfolio-project-4.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_comments_rating.jpg" alt="project4-img4" className="project-images-screenshots"/></a>
             </div>
           </div>
         </Row>
