@@ -14,11 +14,11 @@ const Contact = ({scrollTo}) => {
               <h3 className="span-pink margin-bottom-50"><span className="xl-font">|</span><span className="medium-font">Contact</span><span className="xl-font">|</span></h3>
 
               <div className="contact-links-tile large-font span-blue">
-                <a href="mailto:wilson.espina@gmail.com"><div className="email"><i className="fa fa-envelope" aria-hidden="true"></i><span className="disappear">Email - </span><span className="span-white"><em>wilson.espina@gmail.com</em></span></div></a>
+                <a href="mailto:wilson.espina@gmail.com?subject=Hi Wilson"><div className="email"><i className="fa fa-envelope" aria-hidden="true"></i><span className="disappear">Email - </span><span className="span-white"><em>wilson.espina@gmail.com</em></span></div></a>
 
                 <a href="https://github.com/wilsonespina" target="blank"><div className="github"><i className="fa fa-github" aria-hidden="true"></i><span className="disappear">GitHub -</span> <span className="span-white"><em>wilsonespina</em></span></div></a>
 
-                <a href="https://www.linkedin.com/in/wilson-espina" target="blank"><div className="linkedin"><i className="fa fa-linkedin-square" aria-hidden="true"></i><span className="disappear">LinkedIn - </span><span className="span-white"><em>https://www.linkedin.com/in/wilson-espina/</em></span></div></a>
+                <a href="https://www.linkedin.com/in/wilson-espina" target="blank"><div className="linkedin"><i className="fa fa-linkedin-square" aria-hidden="true"></i><span className="disappear">LinkedIn - </span><span className="span-white"><em>https://www.linkedin.com/in/wilson-espina</em></span></div></a>
 
                 <a href="https://twitter.com/Wilson_Espina" target="blank"><div className="twitter"><i className="fa fa-twitter-square" aria-hidden="true"></i><span className="disappear">Twitter - </span><span className="span-white"><em>Wilson_Espina</em></span></div></a>
 
