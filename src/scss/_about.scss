@@ -6,11 +6,20 @@
       margin-left: auto;
 	    margin-right: auto;
       height: auto;
-      max-width: 90%;
+      min-width: 90%;
       border-bottom: 2px solid white;
     }
     .welcome-banner {
       // font-size: 18px;
+    }
+    div.info-box{
+      // word-wrap: break-word;
+      min-width: 300px;
+      display: inline-block;
+    }
+    div.info-text-speech {
+      display: inherit;
+      margin: 0 10px;
     }
   }
 }
@@ -24,8 +33,12 @@
       margin-left: auto;
 	    margin-right: auto;
       height: auto;
-      max-width: 80%;
+      min-width: 80%;
       border-bottom: 2px solid white;
+    }
+    div.info-text-speech {
+      display: inherit;
+      margin: 0 10px;
     }
   }
 }
@@ -34,11 +47,16 @@
 @media only screen and (min-width: 768px) {
   div.about-section{
     img {
-      margin-left: 10px;
+      margin-left: auto;
+      margin-right: auto;
       height: auto;
-      min-width: 180px;
-      float: right;
+      min-width: 220px;
+      // float: right;
       border-bottom: 2px solid white;
+    }
+    div.info-text-speech {
+      // display: inherit;
+      margin: 0 10px;
     }
   }
 }
@@ -47,11 +65,16 @@
 @media only screen and (min-width: 1024px) {
   div.about-section{
     img {
-      margin-left: 10px;
+      // margin-left: 10px;
+      margin-right: auto;
       height: auto;
       min-width: 220px;
       float: right;
       border-bottom: 2px solid white;
+    }
+    div.info-text-speech {
+      display: inherit;
+      margin: 0 10px;
     }
   }
 }
@@ -63,13 +86,9 @@ div.about-section{
 
 div.about-box {
   min-height: 90vh;
-  // margin-top: 20px;
   text-align: center;
   background-color: $sidebar-black;
   padding: 20px 0;
-  div.info-box{
-    word-wrap: break-word;
-  }
 }
 
 blockquote {

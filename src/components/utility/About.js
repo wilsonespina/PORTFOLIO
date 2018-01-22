@@ -23,12 +23,14 @@ const About = () => {
                 <h3 className="span-yellow margin-bottom-20 medium-font"><em>(<span className="span-white">ex</span>)Breakdancer</em></h3>
               </div>
 
+              <div className="info-text-speech">
+                <blockquote className="quotation-marks"></blockquote><p className="span-white normal-font margin-bottom-50 margin-top-minus60 padding-sides-10">Having recently decided on a huge a career change, I have just graduated from <em>General Assembly</em> London{"'"}s Web Development Immersive course.</p>
 
-              <blockquote className="quotation-marks"></blockquote><p className="span-white normal-font margin-bottom-50 margin-top-minus60 padding-sides-10">Having recently decided on a huge a career change, I have just graduated from <em>General Assembly</em> London{"'"}s Web Development Immersive course.</p>
+                <p className="span-white normal-font margin-bottom-50">I had an early career within civil engineering projects. However, having had a taste for web developing, I{"'"}m now hooked!</p>
 
-              <p className="span-white normal-font margin-bottom-50">I had an early career within civil engineering projects. However, having had a taste for web developing, I{"'"}m now hooked!</p>
+                <p className="span-white normal-font margin-bottom-50">I{"'"}m also partial to a bit of a dance now and again.</p>
+              </div>
 
-              <p className="span-white normal-font margin-bottom-50">I{"'"}m also partial to a bit of a dance now and again.</p>
 
             </div>
           </Col>
