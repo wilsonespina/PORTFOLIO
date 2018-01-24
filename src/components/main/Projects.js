@@ -29,9 +29,9 @@ const Projects = ({scrollTo}) => {
 
               <h2 className="span-green">MERN stack application</h2>
 
-              <p className="span-white small-font">I created a competitive <span className="medium-font">running app</span> that encourages users to upload the best running traces saved on their exercise app, <span className="medium-font">Strava</span>.</p>
+              <p className="span-white medium-font margin-top-20">I created a competitive running app that encourages users to upload the best running traces saved on their exercise app, Strava.</p>
 
-              <p className="span-white small-font">The app uses the <span className="medium-font">Strava</span> and <span className="medium-font">Google Maps</span> APIs to help visualise the trace of real-life runs. People can then <span className="medium-font">comment</span> and <span className="medium-font">rate</span> runs submitted by the TRACE community.</p>
+              <p className="span-white medium-font margin-top-20">The app uses the Strava and Google Maps APIs to help visualise the trace of real-life runs. People can then comment and rate runs submitted by the TRACE community.</p>
 
             </Col>
           </Col>
@@ -51,9 +51,9 @@ const Projects = ({scrollTo}) => {
 
               <h2 className="span-green">MEAN stack group project</h2>
 
-              <p className="span-white small-font">In my group project, we created an app to help people plan their gigs nights out in London. We used data from the <span className="medium-font">TicketMaster</span> API to display event information and used the <span className="medium-font">Google Maps</span> API to show where the they were.</p>
+              <p className="span-white medium-font margin-top-20">In my group project, we created an app to help people plan their gigs nights out in London. We used data from the TicketMaster API to display event information and used the Google Maps API to show where the they were.</p>
 
-              <p className="span-white small-font">Within the app, users can <span className="medium-font">create</span> their own groups for each event and also leave <span className="medium-font">comments</span> for others.</p>
+              <p className="span-white medium-font margin-top-20">Within the app, users can create their own groups for each event and also leave comments for others.</p>
 
             </Col>
           </Col>
@@ -74,9 +74,9 @@ const Projects = ({scrollTo}) => {
 
               <h2 className="span-green">RESTful app</h2>
 
-              <p className="span-white small-font">For my second app, I created a <span className="medium-font">RESTful</span> application with authentication so that users could <span className="medium-font">login</span> and <span className="medium-font">comment</span> on their favourite Katsu Curry spots in London.</p>
+              <p className="span-white medium-font margin-top-20">For my second app, I created a RESTful application with authentication so that users could login and comment on their favourite Katsu Curry spots in London.</p>
 
-              <p className="span-white small-font">Creating the KatSuper Store was also the first time I got to use <span className="medium-font">SASS</span> and <span className="medium-font">EJS</span> in a project.</p>
+              <p className="span-white medium-font margin-top-20">Creating the KatSuper Store was also the first time I got to use SASS and EJS in a project.</p>
 
             </Col>
           </Col>
@@ -97,7 +97,7 @@ const Projects = ({scrollTo}) => {
 
               <h2 className="span-green">JavaScript game</h2>
 
-              <p className="span-white small-font">In my first project at GA, I created a simple block moving game using <span className="medium-font">JavaScript/jQuery</span> and <span className="medium-font">CSS</span>. I emulated a retro gaming experience and based it around one of my favourite games growing up - <span className="medium-font">Pok&eacute;mon</span>.</p>
+              <p className="span-white medium-font margin-top-20">In my first project at GA, I created a simple block moving game using JavaScript/jQuery and CSS. I emulated a retro gaming experience and based it around one of my favourite games growing up - Pok&eacute;mon.</p>
 
             </Col>
           </Col>
