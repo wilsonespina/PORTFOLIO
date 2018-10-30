@@ -1,6 +1,6 @@
 import React from 'react';
-import { withRouter, Link } from 'react-router-dom';
-import { Row, Col } from 'react-bootstrap';
+import { withRouter } from 'react-router-dom';
+import { Row } from 'react-bootstrap';
 import { animateScroll as scroll } from 'react-scroll';
 import LazyLoad from 'react-lazyload';
 
@@ -12,9 +12,8 @@ class Project2 extends React.Component {
     showNav: false
   }
 
-  componentWillMount() {
-    // this.scrollToTop();
-    window.scrollTo(0, 0);
+  componentDidMount() {
+    this.scrollToTop();
   }
 
   scrollToTop() {
@@ -66,28 +65,28 @@ class Project2 extends React.Component {
 
             <div className="picture-project-series container-fluid">
               <a href="https://portfolio-project-2.herokuapp.com/" target="blank">
-                <LazyLoad height={1000} throttle={2000}>
+                <LazyLoad height={500} throttle={300} scroll={true} resize={true}>
                   <img src="../../assets/screenshot_landingpage.jpg" alt="project2-img2" className="project-images-screenshots" />
                 </LazyLoad>
               </a>
             </div>
             <div className="picture-project-series container-fluid">
               <a href="https://portfolio-project-2.herokuapp.com/" target="blank">
-                <LazyLoad height={1000} throttle={2000}>
+                <LazyLoad height={500} throttle={300} scroll={true} resize={true}>
                   <img src="../../assets/project_images/screenshot_indexpage.jpg" alt="project2-img2" className="project-images-screenshots" />
                 </LazyLoad>
               </a>
             </div>
             <div className="picture-project-series container-fluid">
               <a href="https://portfolio-project-2.herokuapp.com/" target="blank">
-                <LazyLoad height={1000} throttle={2000}>
+                <LazyLoad height={500} throttle={300} scroll={true} resize={true}>
                   <img src="../../assets/project_images/screenshot_registerpage.jpg" alt="project2-img3" className="project-images-screenshots" />
                 </LazyLoad>
               </a>
             </div>
             <div className="picture-project-series container-fluid">
               <a href="https://portfolio-project-2.herokuapp.com/" target="blank">
-                <LazyLoad height={1000} throttle={2000}>
+                <LazyLoad height={500} throttle={300} scroll={true} resize={true}>
                   <img src="../../assets/project_images/screenshot_showpage.jpg" alt="project2-img4" className="project-images-screenshots" />
                 </LazyLoad>
               </a>
