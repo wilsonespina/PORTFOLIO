@@ -2,6 +2,7 @@ import React from 'react';
 import { withRouter, Link } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
 import { animateScroll as scroll } from 'react-scroll';
+import LazyLoad from 'react-lazyload';
 
 import NavBarProjects from '../utility/NavBarProjects';
 import Sidebar from '../utility/Sidebar';
@@ -11,8 +12,9 @@ class Project2 extends React.Component {
     showNav: false
   }
 
-  componentDidMount() {
-    this.scrollToTop();
+  componentWillMount() {
+    // this.scrollToTop();
+    window.scrollTo(0, 0);
   }
 
   scrollToTop() {
@@ -63,15 +65,37 @@ class Project2 extends React.Component {
             </div>
 
             <div className="picture-project-series container-fluid">
-              <a href="https://portfolio-project-2.herokuapp.com/" target="blank"><img src="../../assets/screenshot_landingpage.jpg" alt="project2-img1" className="project-images-screenshots" /></a>
-              <a href="https://portfolio-project-2.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_indexpage.jpg" alt="project2-img2" className="project-images-screenshots" /></a>
-              <a href="https://portfolio-project-2.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_registerpage.jpg" alt="project2-img3" className="project-images-screenshots" /></a>
-              <a href="https://portfolio-project-2.herokuapp.com/" target="blank"><img src="../../assets/project_images/screenshot_showpage.jpg" alt="project2-img4" className="project-images-screenshots" /></a>
-
+              <a href="https://portfolio-project-2.herokuapp.com/" target="blank">
+                <LazyLoad height={1000} throttle={2000}>
+                  <img src="../../assets/screenshot_landingpage.jpg" alt="project2-img2" className="project-images-screenshots" />
+                </LazyLoad>
+              </a>
             </div>
+            <div className="picture-project-series container-fluid">
+              <a href="https://portfolio-project-2.herokuapp.com/" target="blank">
+                <LazyLoad height={1000} throttle={2000}>
+                  <img src="../../assets/project_images/screenshot_indexpage.jpg" alt="project2-img2" className="project-images-screenshots" />
+                </LazyLoad>
+              </a>
+            </div>
+            <div className="picture-project-series container-fluid">
+              <a href="https://portfolio-project-2.herokuapp.com/" target="blank">
+                <LazyLoad height={1000} throttle={2000}>
+                  <img src="../../assets/project_images/screenshot_registerpage.jpg" alt="project2-img3" className="project-images-screenshots" />
+                </LazyLoad>
+              </a>
+            </div>
+            <div className="picture-project-series container-fluid">
+              <a href="https://portfolio-project-2.herokuapp.com/" target="blank">
+                <LazyLoad height={1000} throttle={2000}>
+                  <img src="../../assets/project_images/screenshot_showpage.jpg" alt="project2-img4" className="project-images-screenshots" />
+                </LazyLoad>
+              </a>
+            </div>
+
           </div>
         </Row>
-      </Row>
+      </Row >
     );
   }
 }
