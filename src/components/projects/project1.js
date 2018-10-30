@@ -1,6 +1,6 @@
 import React from 'react';
-import { withRouter, Link } from 'react-router-dom';
-import { Row, Col } from 'react-bootstrap';
+import { withRouter } from 'react-router-dom';
+import { Row } from 'react-bootstrap';
 import { animateScroll as scroll } from 'react-scroll';
 import LazyLoad from 'react-lazyload';
 
@@ -59,8 +59,10 @@ class Project1 extends React.Component {
             </div>
 
             <div className="picture-project-series container-fluid">
-              <LazyLoad height={500} throttle={300} scroll={true} resize={true}>
-                <a href="https://portfolio-project-1.herokuapp.com/" target="blank"><img src="../../assets/screenshot_game.jpg" alt="project2-img1" className="project-images-screenshots" /></a>
+              <LazyLoad height={694} throttle={300} scroll={true} resize={true}>
+                <a href="https://portfolio-project-1.herokuapp.com/" target="blank">
+                  <img src="../../assets/screenshot_game.jpg" alt="project2-img1" className="project-images-screenshots" width="927" height="694" />
+                </a>
               </LazyLoad>
             </div>
 

@@ -64,32 +64,32 @@ class Project2 extends React.Component {
             </div>
 
             <div className="picture-project-series container-fluid">
-              <a href="https://portfolio-project-2.herokuapp.com/" target="blank">
-                <LazyLoad height={500} throttle={300} scroll={true} resize={true}>
-                  <img src="../../assets/screenshot_landingpage.jpg" alt="project2-img2" className="project-images-screenshots" />
-                </LazyLoad>
-              </a>
+              <LazyLoad height={800} throttle={300} scroll={true} resize={true}>
+                <a href="https://portfolio-project-2.herokuapp.com/" target="blank">
+                  <img src="../../assets/screenshot_landingpage.jpg" alt="project2-img2" className="project-images-screenshots" height="800" width="600" />
+                </a>
+              </LazyLoad>
             </div>
             <div className="picture-project-series container-fluid">
-              <a href="https://portfolio-project-2.herokuapp.com/" target="blank">
-                <LazyLoad height={500} throttle={300} scroll={true} resize={true}>
-                  <img src="../../assets/project_images/screenshot_indexpage.jpg" alt="project2-img2" className="project-images-screenshots" />
-                </LazyLoad>
-              </a>
+              <LazyLoad height={800} throttle={300} scroll={true} resize={true}>
+                <a href="https://portfolio-project-2.herokuapp.com/" target="blank">
+                  <img src="../../assets/project_images/screenshot_indexpage.jpg" alt="project2-img2" className="project-images-screenshots" height="800" width="600" />
+                </a>
+              </LazyLoad>
             </div>
             <div className="picture-project-series container-fluid">
-              <a href="https://portfolio-project-2.herokuapp.com/" target="blank">
-                <LazyLoad height={500} throttle={300} scroll={true} resize={true}>
-                  <img src="../../assets/project_images/screenshot_registerpage.jpg" alt="project2-img3" className="project-images-screenshots" />
-                </LazyLoad>
-              </a>
+              <LazyLoad height={800} throttle={300} scroll={true} resize={true}>
+                <a href="https://portfolio-project-2.herokuapp.com/" target="blank">
+                  <img src="../../assets/project_images/screenshot_registerpage.jpg" alt="project2-img3" className="project-images-screenshots" height="800" width="600" />
+                </a>
+              </LazyLoad>
             </div>
             <div className="picture-project-series container-fluid">
-              <a href="https://portfolio-project-2.herokuapp.com/" target="blank">
-                <LazyLoad height={500} throttle={300} scroll={true} resize={true}>
-                  <img src="../../assets/project_images/screenshot_showpage.jpg" alt="project2-img4" className="project-images-screenshots" />
-                </LazyLoad>
-              </a>
+              <LazyLoad height={800} throttle={300} scroll={true} resize={true}>
+                <a href="https://portfolio-project-2.herokuapp.com/" target="blank">
+                  <img src="../../assets/project_images/screenshot_showpage.jpg" alt="project2-img4" className="project-images-screenshots" height="800" width="600" />
+                </a>
+              </LazyLoad>
             </div>
 
           </div>
