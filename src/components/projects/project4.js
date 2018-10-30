@@ -68,28 +68,28 @@ class Project4 extends React.Component {
             <div className="picture-project-series container-fluid">
               <LazyLoad height={693} throttle={300} scroll={true} resize={true}>
                 <a href="https://portfolio-project-4.herokuapp.com/" target="blank">
-                  <img src="../../assets/project_images/screenshot_landing.jpg" alt="project4-img1" className="project-images-screenshots" width="992" height="693" />
+                  <img src="../../assets/project_images/screenshot_landing.jpg" alt="project4-img1" className="project-images-screenshots" />
                 </a>
               </LazyLoad>
             </div>
             <div className="picture-project-series container-fluid">
               <LazyLoad height={701} throttle={300} scroll={true} resize={true}>
                 <a href="https://portfolio-project-4.herokuapp.com/" target="blank">
-                  <img src="../../assets/project_images/screenshot_profile.png" alt="project4-img2" className="project-images-screenshots" width="995" height="701" />
+                  <img src="../../assets/project_images/screenshot_profile.png" alt="project4-img2" className="project-images-screenshots" />
                 </a>
               </LazyLoad>
             </div>
             <div className="picture-project-series container-fluid">
               <LazyLoad height={699} throttle={300} scroll={true} resize={true}>
                 <a href="https://portfolio-project-4.herokuapp.com/" target="blank">
-                  <img src="../../assets/project_images/screenshot_usersshow.png" alt="project4-img3" className="project-images-screenshots" width="994" height="699" />
+                  <img src="../../assets/project_images/screenshot_usersshow.png" alt="project4-img3" className="project-images-screenshots" />
                 </a>
               </LazyLoad>
             </div>
             <div className="picture-project-series container-fluid">
               <LazyLoad height={450} throttle={300} scroll={true} resize={true}>
                 <a href="https://portfolio-project-4.herokuapp.com/" target="blank">
-                  <img src="../../assets/project_images/screenshot_comments_rating.jpg" alt="project4-img4" className="project-images-screenshots" width="859" height="450" />
+                  <img src="../../assets/project_images/screenshot_comments_rating.jpg" alt="project4-img4" className="project-images-screenshots" />
                 </a>
               </LazyLoad>
             </div>

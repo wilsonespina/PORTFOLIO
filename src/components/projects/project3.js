@@ -66,30 +66,30 @@ class Project3 extends React.Component {
 
 
             <div className="picture-project-series container-fluid">
-              <LazyLoad height={800} throttle={300} scroll={true} resize={true}>
+              <LazyLoad height={884} throttle={300} scroll={true} resize={true}>
                 <a href="https://portfolio-group-project.herokuapp.com/" target="blank">
-                  <img src="../../assets/screenshot_landingpage_project3.png" alt="project3-img1" className="project-images-screenshots" width="600" height="800" />
+                  <img src="../../assets/screenshot_landingpage_project3.png" alt="project3-img1" className="project-images-screenshots" />
                 </a>
               </LazyLoad>
             </div>
             <div className="picture-project-series container-fluid">
-              <LazyLoad height={800} throttle={300} scroll={true} resize={true}>
+              <LazyLoad height={919} throttle={300} scroll={true} resize={true}>
                 <a href="https://portfolio-group-project.herokuapp.com/" target="blank">
-                  <img src="../../assets/project_images/screenshot_eventShow.png" alt="project3-img3" className="project-images-screenshots" width="600" height="800" />
+                  <img src="../../assets/project_images/screenshot_eventShow.png" alt="project3-img3" className="project-images-screenshots" />
                 </a>
               </LazyLoad>
             </div>
             <div className="picture-project-series container-fluid">
-              <LazyLoad height={800} throttle={300} scroll={true} resize={true}>
+              <LazyLoad height={913} throttle={300} scroll={true} resize={true}>
                 <a href="https://portfolio-group-project.herokuapp.com/" target="blank">
-                  <img src="../../assets/project_images/screenshot_eventIndex.png" alt="project3-img2" className="project-images-screenshots" width="600" height="800" />
+                  <img src="../../assets/project_images/screenshot_eventIndex.png" alt="project3-img2" className="project-images-screenshots" />
                 </a>
               </LazyLoad>
             </div>
             <div className="picture-project-series container-fluid">
-              <LazyLoad height={800} throttle={300} scroll={true} resize={true}>
+              <LazyLoad height={920} throttle={300} scroll={true} resize={true}>
                 <a href="https://portfolio-group-project.herokuapp.com/" target="blank">
-                  <img src="../../assets/project_images/screenshot_groupShow.png" alt="project3-img4" className="project-images-screenshots" width="600" height="800" />
+                  <img src="../../assets/project_images/screenshot_groupShow.png" alt="project3-img4" className="project-images-screenshots" />
                 </a>
               </LazyLoad>
             </div>

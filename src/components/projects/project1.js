@@ -61,7 +61,7 @@ class Project1 extends React.Component {
             <div className="picture-project-series container-fluid">
               <LazyLoad height={694} throttle={300} scroll={true} resize={true}>
                 <a href="https://portfolio-project-1.herokuapp.com/" target="blank">
-                  <img src="../../assets/screenshot_game.jpg" alt="project2-img1" className="project-images-screenshots" width="927" height="694" />
+                  <img src="../../assets/screenshot_game.jpg" alt="project2-img1" className="project-images-screenshots" />
                 </a>
               </LazyLoad>
             </div>
