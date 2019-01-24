@@ -51,7 +51,7 @@ const Projects = ({scrollTo}) => {
 
               <h2 className="span-green">MEAN stack group project</h2>
 
-              <p className="span-white medium-font margin-top-20">In my group project, we created an app to help people plan their gigs nights out in London. We used data from the TicketMaster API to display event information and used the Google Maps API to show where the they were.</p>
+              <p className="span-white medium-font margin-top-20">In my group project, we created an app to help people plan their gigs nights out in London. We used data from the TicketMaster API to display event information and used the Google Maps API to show where they were.</p>
 
               <p className="span-white medium-font margin-top-20">Within the app, users can create their own groups for each event and also leave comments for others.</p>
 
