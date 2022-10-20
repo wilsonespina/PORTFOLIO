@@ -20,7 +20,7 @@
     "express": "^4.15.4",
     "font-awesome": "^4.7.0",
     "moment": "^2.19.4",
-    "mongoose": "^4.13.9",
+    "mongoose": "^4.13.21",
     "mongoose-unique-validator": "^1.0.6",
     "morgan": "^1.8.2",
     "newrelic": "^2.6.0",
